@@ -279,3 +279,32 @@ SESSION SUMMARY:
   - Finished At       : 2026-10-22 22:49:33
 ================================================================================
 
+================================================================================
+PROJECT CLEANER LOG - 2026-10-22 23:15:51
+Target Directory : /Users/mbairm12020
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 4
+================================================================================
+
+[PROJECT] Xcode Simulator Device Data
+  [2026-10-22 23:15:31] [DELETED] /Users/mbairm12020/Library/Developer/CoreSimulator/Devices | Size: 3.3 GB | Mode: permanent
+
+[PROJECT] Docker VM & Containers
+  [2026-10-22 23:15:32] [DELETED] /Users/mbairm12020/Library/Containers/com.docker.docker | Size: 2.5 GB | Mode: permanent
+
+[PROJECT] Gradle Wrapper Distributions
+  [2026-10-22 23:15:38] [DELETED] /Users/mbairm12020/.gradle/wrapper/dists | Size: 1.7 GB | Mode: permanent
+
+[PROJECT] Go Build & Module Cache
+  [2026-10-22 23:15:51] [COMMAND] go clean -cache -modcache
+  [2026-10-22 23:15:51] [DELETED] /Users/mbairm12020/go/pkg/mod | Size: 1.6 GB | Mode: command
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 9.2 GB (9,851,783,351 bytes)
+  - Items Cleaned     : 4
+  - Commands Run      : 1
+  - Errors            : 0
+  - Finished At       : 2026-10-22 23:15:51
+================================================================================
+

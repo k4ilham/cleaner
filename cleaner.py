@@ -222,6 +222,7 @@ def run_interactive_menu(
         print(f" {Colors.CYAN}[7]{Colors.RESET} Pilih projek tertentu berdasarkan nomor (cth: 1, 3, 5-8)")
         print(f" {Colors.CYAN}[8]{Colors.RESET} Bersihkan projek TIDAK AKTIF saja (> 30 hari tidak diedit)")
         print(f" {Colors.BRIGHT_MAGENTA}[s]{Colors.RESET} {Colors.BOLD}Bersihkan CACHE GLOBAL SISTEM & DEVELOPER (~24 GB: NPM, Gradle, Chrome, dll){Colors.RESET}")
+        print(f" {Colors.BRIGHT_BLUE}[d]{Colors.RESET} {Colors.BOLD}Rapikan & Kelola folder DOWNLOADS (Kategori, Duplikat, Hapus Sampah){Colors.RESET}")
         print(f" {Colors.YELLOW}[t]{Colors.RESET} Ganti Mode Hapus (Saat ini: {trash_mode_text})")
         print(f" {Colors.CYAN}[l]{Colors.RESET} Lihat isi file log (.log)")
         print(f" {Colors.CYAN}[r]{Colors.RESET} Scan ulang direktori")
@@ -237,6 +238,10 @@ def run_interactive_menu(
         if choice in {"q", "exit"}:
             print("Keluar dari cleaner.")
             break
+        elif choice == "d":
+            from organize_downloads import run_interactive_menu as run_dl_menu
+            run_dl_menu()
+            continue
         elif choice == "s":
             handle_system_cache_menu(logger=logger, use_trash=use_trash)
             continue
@@ -359,6 +364,7 @@ Contoh Penggunaan:
         help="Path ke direktori yang ingin dibersihkan (default: direktori parent atau saat ini).",
     )
     parser.add_argument("-s", "--scan", "--dry-run", dest="dry_run", action="store_true", help="Hanya scan dan tampilkan ukuran tanpa menghapus.")
+    parser.add_argument("--downloads", action="store_true", help="Buka pengatur dan pembersih folder Downloads.")
     parser.add_argument("--system-caches", action="store_true", help="Scan dan bersihkan cache global sistem & developer (NPM, Gradle, Xcode, Chrome, dll).")
     parser.add_argument("--flutter", action="store_true", help="Hanya bersihkan projek Flutter (flutter clean & build).")
     parser.add_argument("--node", action="store_true", help="Hanya bersihkan projek Node.js (node_modules, .next, dist).")
@@ -399,6 +405,12 @@ Contoh Penggunaan:
 
     custom_log_path = Path(os.path.expanduser(args.log_file)) if args.log_file else None
     logger = CleanerLogger(custom_log_path)
+
+    # Handle --downloads via CLI
+    if args.downloads:
+        from organize_downloads import run_interactive_menu as run_dl_menu
+        run_dl_menu()
+        return
 
     # Handle --system-caches via CLI
     if args.system_caches:

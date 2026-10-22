@@ -129,6 +129,37 @@ def get_known_system_caches() -> List[SystemCacheItem]:
             description="Cache tarball dan installer Homebrew.",
             clean_command=["brew", "cleanup", "--prune=all"],
         ),
+        SystemCacheItem(
+            key="gradle_dists",
+            name="Gradle Wrapper Distributions",
+            category="Developer Tools",
+            path=home / ".gradle" / "wrapper" / "dists",
+            description="File zip rilis Gradle lama yang pernah diunduh projek (~/.gradle/wrapper/dists).",
+        ),
+        SystemCacheItem(
+            key="go_cache",
+            name="Go Build & Module Cache",
+            category="Developer Tools",
+            path=home / "go" / "pkg" / "mod",
+            description="Cache download modul Go dan build cache (~/go/pkg/mod).",
+            clean_command=["go", "clean", "-cache", "-modcache"],
+        ),
+        SystemCacheItem(
+            key="xcode_sim_devices",
+            name="Xcode Simulator Device Data",
+            category="Developer Tools",
+            path=home / "Library" / "Developer" / "CoreSimulator" / "Devices",
+            description="Data dan memori internal simulator iOS iPhone/iPad.",
+            clean_command=["xcrun", "simctl", "erase", "all"],
+        ),
+        SystemCacheItem(
+            key="docker_cache",
+            name="Docker VM & Containers",
+            category="Developer Tools",
+            path=home / "Library" / "Containers" / "com.docker.docker",
+            description="Disk image dan container Docker Desktop.",
+            clean_command=["docker", "system", "prune", "-a", "-f", "--volumes"],
+        ),
     ]
 
 

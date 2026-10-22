@@ -8,10 +8,19 @@ from pathlib import Path
 from typing import Optional
 
 
+def _get_entry_size(stat_res) -> int:
+    """Calculate actual physical disk space, accounting for sparse files."""
+    if hasattr(stat_res, "st_blocks") and stat_res.st_blocks > 0:
+        physical = stat_res.st_blocks * 512
+        return min(stat_res.st_size, physical)
+    return stat_res.st_size
+
+
 def get_path_size(path: Path) -> int:
     """
     Calculate the total size of a file or directory in bytes.
     Ignores symlinks to prevent infinite recursion and duplicate counting.
+    Accurately handles sparse files on macOS APFS.
     """
     if not path.exists():
         return 0
@@ -21,7 +30,7 @@ def get_path_size(path: Path) -> int:
 
     if path.is_file():
         try:
-            return path.stat().st_size
+            return _get_entry_size(path.stat())
         except (OSError, PermissionError):
             return 0
 
@@ -37,7 +46,7 @@ def get_path_size(path: Path) -> int:
                         if entry.is_symlink():
                             continue
                         if entry.is_file():
-                            total_size += entry.stat().st_size
+                            total_size += _get_entry_size(entry.stat())
                         elif entry.is_dir():
                             stack.append(entry.path)
                     except (OSError, PermissionError):
