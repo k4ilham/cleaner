@@ -1,0 +1,229 @@
+================================================================================
+PROJECT CLEANER LOG - 2026-10-22 22:37:42
+Target Directory : /Users/mbairm12020/Documents/projek
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 45
+================================================================================
+
+[PROJECT] mobile_muge
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:35:04] [DELETED] /Users/mbairm12020/Documents/projek/muge/mobile_muge/build | Size: 2.4 GB | Mode: flutter clean
+  [2026-10-22 22:35:04] [DELETED] /Users/mbairm12020/Documents/projek/muge/mobile_muge/.dart_tool | Size: 289.6 MB | Mode: flutter clean
+  [2026-10-22 22:35:04] [DELETED] /Users/mbairm12020/Documents/projek/muge/mobile_muge/.flutter-plugins-dependencies | Size: 19.0 KB | Mode: flutter clean
+  [2026-10-22 22:35:04] [DELETED] /Users/mbairm12020/Documents/projek/muge/mobile_muge/android/.gradle | Size: 25.1 MB | Mode: permanent
+
+[PROJECT] fe-flutter-anggota-kpmijakarta
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:35:07] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-anggota-kpmijakarta/build | Size: 2.0 GB | Mode: flutter clean
+  [2026-10-22 22:35:07] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-anggota-kpmijakarta/.dart_tool | Size: 243.6 MB | Mode: flutter clean
+  [2026-10-22 22:35:07] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-anggota-kpmijakarta/.flutter-plugins-dependencies | Size: 7.2 KB | Mode: flutter clean
+  [2026-10-22 22:35:07] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-anggota-kpmijakarta/android/.gradle | Size: 9.0 MB | Mode: permanent
+
+[PROJECT] fe-flutter-korwil-kpmijakarta
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:35:08] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-korwil-kpmijakarta/build | Size: 1.3 GB | Mode: flutter clean
+  [2026-10-22 22:35:08] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-korwil-kpmijakarta/.dart_tool | Size: 103.7 MB | Mode: flutter clean
+  [2026-10-22 22:35:08] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-korwil-kpmijakarta/.flutter-plugins-dependencies | Size: 5.4 KB | Mode: flutter clean
+  [2026-10-22 22:35:08] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-korwil-kpmijakarta/android/.gradle | Size: 3.6 MB | Mode: permanent
+
+[PROJECT] fe-flutter-admin-kpmijakarta
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:35:09] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-admin-kpmijakarta/build | Size: 1.2 GB | Mode: flutter clean
+  [2026-10-22 22:35:09] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-admin-kpmijakarta/.dart_tool | Size: 91.6 MB | Mode: flutter clean
+  [2026-10-22 22:35:09] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-admin-kpmijakarta/.flutter-plugins-dependencies | Size: 4.7 KB | Mode: flutter clean
+  [2026-10-22 22:35:09] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-flutter-admin-kpmijakarta/android/.gradle | Size: 2.3 MB | Mode: permanent
+
+[PROJECT] Subway Surfers
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:35:10] [DELETED] /Users/mbairm12020/Documents/projek/mobile game/Subway Surfers/build | Size: 1.1 GB | Mode: flutter clean
+  [2026-10-22 22:35:10] [DELETED] /Users/mbairm12020/Documents/projek/mobile game/Subway Surfers/.dart_tool | Size: 42.3 MB | Mode: flutter clean
+  [2026-10-22 22:35:10] [DELETED] /Users/mbairm12020/Documents/projek/mobile game/Subway Surfers/android/.gradle | Size: 502.9 KB | Mode: permanent
+
+[PROJECT] game2d
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:35:11] [DELETED] /Users/mbairm12020/Documents/projek/mobile game/game2d/build | Size: 1.1 GB | Mode: flutter clean
+  [2026-10-22 22:35:11] [DELETED] /Users/mbairm12020/Documents/projek/mobile game/game2d/.dart_tool | Size: 42.3 MB | Mode: flutter clean
+  [2026-10-22 22:35:11] [DELETED] /Users/mbairm12020/Documents/projek/mobile game/game2d/android/.gradle | Size: 527.2 KB | Mode: permanent
+
+[PROJECT] v0-jri
+  [2026-10-22 22:35:16] [DELETED] /Users/mbairm12020/Documents/projek/v0-jri/node_modules | Size: 452.9 MB | Mode: permanent
+  [2026-10-22 22:35:16] [DELETED] /Users/mbairm12020/Documents/projek/v0-jri/.next | Size: 590.5 MB | Mode: permanent
+
+[PROJECT] inerquran
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:35:18] [DELETED] /Users/mbairm12020/Documents/projek/inerquran/build | Size: 901.6 MB | Mode: flutter clean
+  [2026-10-22 22:35:18] [DELETED] /Users/mbairm12020/Documents/projek/inerquran/.dart_tool | Size: 62.1 MB | Mode: flutter clean
+  [2026-10-22 22:35:18] [DELETED] /Users/mbairm12020/Documents/projek/inerquran/.flutter-plugins-dependencies | Size: 8.4 KB | Mode: flutter clean
+  [2026-10-22 22:35:18] [DELETED] /Users/mbairm12020/Documents/projek/inerquran/android/.gradle | Size: 10.8 MB | Mode: permanent
+
+[PROJECT] v0-ilham-maulana-id
+  [2026-10-22 22:35:26] [DELETED] /Users/mbairm12020/Documents/projek/v0-ilham-maulana-id/node_modules | Size: 648.5 MB | Mode: permanent
+  [2026-10-22 22:35:26] [DELETED] /Users/mbairm12020/Documents/projek/v0-ilham-maulana-id/.next | Size: 185.2 MB | Mode: permanent
+
+[PROJECT] v0-voice-assistant-website
+  [2026-10-22 22:35:30] [DELETED] /Users/mbairm12020/Documents/projek/v0-voice-assistant-website/node_modules | Size: 421.8 MB | Mode: permanent
+  [2026-10-22 22:35:30] [DELETED] /Users/mbairm12020/Documents/projek/v0-voice-assistant-website/.next | Size: 47.7 MB | Mode: permanent
+
+[PROJECT] web-tanya-pdf-rag
+  [2026-10-22 22:35:33] [DELETED] /Users/mbairm12020/Documents/projek/web-tanya-pdf-rag/node_modules | Size: 412.5 MB | Mode: permanent
+  [2026-10-22 22:35:33] [DELETED] /Users/mbairm12020/Documents/projek/web-tanya-pdf-rag/.next | Size: 22.1 MB | Mode: permanent
+
+[PROJECT] fe-astro-kpmijakarta
+  [2026-10-22 22:35:37] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-astro-kpmijakarta/node_modules | Size: 300.0 MB | Mode: permanent
+  [2026-10-22 22:35:37] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-astro-kpmijakarta/dist | Size: 29.6 MB | Mode: permanent
+  [2026-10-22 22:35:37] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/kpmi pusat/fe-astro-kpmijakarta/.astro | Size: 97 B | Mode: permanent
+
+[PROJECT] inercorp-frontend-react-landing
+  [2026-10-22 22:37:20] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inercorp-frontend-react-landing/node_modules | Size: 243.0 MB | Mode: permanent
+
+[PROJECT] inergi-klinikgigi
+  [2026-10-22 22:35:47] [DELETED] /Users/mbairm12020/Documents/projek/inerep/inergi-klinikgigi/node_modules | Size: 255.8 MB | Mode: permanent
+  [2026-10-22 22:35:47] [DELETED] /Users/mbairm12020/Documents/projek/inerep/inergi-klinikgigi/.next | Size: 57.0 MB | Mode: permanent
+
+[PROJECT] frontend-siawas
+  [2026-10-22 22:35:52] [DELETED] /Users/mbairm12020/Documents/projek/siawas/frontend-siawas/node_modules | Size: 301.7 MB | Mode: permanent
+  [2026-10-22 22:35:52] [DELETED] /Users/mbairm12020/Documents/projek/siawas/frontend-siawas/dist | Size: 5.5 MB | Mode: permanent
+
+[PROJECT] lpkfgu-fe
+  [2026-10-22 22:35:56] [DELETED] /Users/mbairm12020/Documents/projek/lpkfgu-fe/node_modules | Size: 278.5 MB | Mode: permanent
+  [2026-10-22 22:35:56] [DELETED] /Users/mbairm12020/Documents/projek/lpkfgu-fe/dist | Size: 18.0 MB | Mode: permanent
+
+[PROJECT] inerep-webprofile
+  [2026-10-22 22:36:00] [DELETED] /Users/mbairm12020/Documents/projek/inerep/inerep-webprofile/node_modules | Size: 255.6 MB | Mode: permanent
+  [2026-10-22 22:36:00] [DELETED] /Users/mbairm12020/Documents/projek/inerep/inerep-webprofile/.next | Size: 38.4 MB | Mode: permanent
+
+[PROJECT] frontend
+  [2026-10-22 22:37:41] [DELETED] /Users/mbairm12020/Documents/projek/cs/frontend/node_modules | Size: 79.4 MB | Mode: permanent
+
+[PROJECT] topmind-fe-react-vite
+  [2026-10-22 22:36:10] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-fe-react-vite/node_modules | Size: 281.6 MB | Mode: permanent
+  [2026-10-22 22:36:10] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-fe-react-vite/dist | Size: 8.4 MB | Mode: permanent
+
+[PROJECT] agent-ai-inercorp
+  [2026-10-22 22:36:14] [DELETED] /Users/mbairm12020/Documents/projek/agent-ai-inercorp/node_modules | Size: 255.8 MB | Mode: permanent
+  [2026-10-22 22:36:14] [DELETED] /Users/mbairm12020/Documents/projek/agent-ai-inercorp/.next | Size: 29.0 MB | Mode: permanent
+
+[PROJECT] inerlog-frontend-react
+  [2026-10-22 22:36:22] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inerlog-frontend-react/node_modules | Size: 265.4 MB | Mode: permanent
+
+[PROJECT] fe-dbskpmi
+  [2026-10-22 22:36:26] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/dbs/fe-dbskpmi/node_modules | Size: 252.3 MB | Mode: permanent
+  [2026-10-22 22:36:26] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/dbs/fe-dbskpmi/dist | Size: 7.5 MB | Mode: permanent
+  [2026-10-22 22:36:26] [DELETED] /Users/mbairm12020/Documents/projek/kpmi/dbs/fe-dbskpmi/.astro | Size: 97 B | Mode: permanent
+
+[PROJECT] inercore-frontend-web-erp
+  [2026-10-22 22:36:29] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inercore-frontend-web-erp/node_modules | Size: 252.4 MB | Mode: permanent
+  [2026-10-22 22:36:29] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inercore-frontend-web-erp/dist | Size: 1.9 MB | Mode: permanent
+
+[PROJECT] inermart-frontend-react-merchant
+  [2026-10-22 22:36:58] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inermart-frontend-react-merchant/node_modules | Size: 243.0 MB | Mode: permanent
+
+[PROJECT] inermart-frontend-react-admin
+  [2026-10-22 22:37:13] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inermart-frontend-react-admin/node_modules | Size: 243.0 MB | Mode: permanent
+
+[PROJECT] frontend-muge
+  [2026-10-22 22:36:45] [DELETED] /Users/mbairm12020/Documents/projek/muge/frontend-muge/node_modules | Size: 250.9 MB | Mode: permanent
+
+[PROJECT] inercorp-frontend-react-kuliahkoding
+  [2026-10-22 22:36:50] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inercorp-frontend-react-kuliahkoding/node_modules | Size: 247.7 MB | Mode: permanent
+
+[PROJECT] innovus-frontend-react-landing
+  [2026-10-22 22:36:54] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/innovus-frontend-react-landing/node_modules | Size: 243.0 MB | Mode: permanent
+  [2026-10-22 22:36:54] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/innovus-frontend-react-landing/dist | Size: 4.4 MB | Mode: permanent
+
+[PROJECT] inermart-frontend-react-landing
+  [2026-10-22 22:37:06] [DELETED] /Users/mbairm12020/Documents/projek/inermart/inermart-frontend-react-landing/node_modules | Size: 243.0 MB | Mode: permanent
+
+[PROJECT] inerpay-frontend-react-landing
+  [2026-10-22 22:37:24] [DELETED] /Users/mbairm12020/Documents/projek/backup_inercorp/inerpay/backup/inerpay-frontend-react-landing/node_modules | Size: 243.0 MB | Mode: permanent
+
+[PROJECT] inercore-frontend-react-admin
+  [2026-10-22 22:37:17] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inercore-frontend-react-admin/node_modules | Size: 243.0 MB | Mode: permanent
+
+[PROJECT] fe-astro-admin-inerpay
+  [2026-10-22 22:37:27] [DELETED] /Users/mbairm12020/Documents/projek/inerpay/fe-astro-admin-inerpay/node_modules | Size: 239.2 MB | Mode: permanent
+  [2026-10-22 22:37:27] [DELETED] /Users/mbairm12020/Documents/projek/inerpay/fe-astro-admin-inerpay/dist | Size: 2.4 MB | Mode: permanent
+  [2026-10-22 22:37:27] [DELETED] /Users/mbairm12020/Documents/projek/inerpay/fe-astro-admin-inerpay/.astro | Size: 97 B | Mode: permanent
+
+[PROJECT] fe-astro-merchant-inerpay
+  [2026-10-22 22:37:31] [DELETED] /Users/mbairm12020/Documents/projek/inerpay/fe-astro-merchant-inerpay/node_modules | Size: 239.2 MB | Mode: permanent
+  [2026-10-22 22:37:31] [DELETED] /Users/mbairm12020/Documents/projek/inerpay/fe-astro-merchant-inerpay/dist | Size: 923.4 KB | Mode: permanent
+  [2026-10-22 22:37:31] [DELETED] /Users/mbairm12020/Documents/projek/inerpay/fe-astro-merchant-inerpay/.astro | Size: 97 B | Mode: permanent
+
+[PROJECT] v0-siti-ernawati
+  [2026-10-22 22:37:35] [DELETED] /Users/mbairm12020/Documents/projek/v0-siti-ernawati/node_modules | Size: 209.2 MB | Mode: permanent
+  [2026-10-22 22:37:35] [DELETED] /Users/mbairm12020/Documents/projek/v0-siti-ernawati/.next | Size: 28.4 MB | Mode: permanent
+
+[PROJECT] sali-flutter
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:37:35] [DELETED] /Users/mbairm12020/Documents/projek/sali-flutter/build | Size: 157.3 MB | Mode: flutter clean
+  [2026-10-22 22:37:35] [DELETED] /Users/mbairm12020/Documents/projek/sali-flutter/.dart_tool | Size: 43.8 MB | Mode: flutter clean
+  [2026-10-22 22:37:35] [DELETED] /Users/mbairm12020/Documents/projek/sali-flutter/.flutter-plugins-dependencies | Size: 6.9 KB | Mode: flutter clean
+  [2026-10-22 22:37:36] [DELETED] /Users/mbairm12020/Documents/projek/sali-flutter/ios/Pods | Size: 357.9 KB | Mode: permanent
+  [2026-10-22 22:37:36] [DELETED] /Users/mbairm12020/Documents/projek/sali-flutter/ios/.symlinks | Size: 0 B | Mode: permanent
+
+[PROJECT] inerscan
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/build | Size: 94.7 MB | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/dist | Size: 78.9 MB | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/app/ui/ribbons/__pycache__ | Size: 15.6 KB | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/app/ui/__pycache__ | Size: 68.5 KB | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/app/ui/widgets/__pycache__ | Size: 47.8 KB | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/app/core/__pycache__ | Size: 1.4 KB | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/app/__pycache__ | Size: 157 B | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/app/services/__pycache__ | Size: 45.3 KB | Mode: permanent
+  [2026-10-22 22:37:38] [DELETED] /Users/mbairm12020/Documents/projek/inerscan/__pycache__ | Size: 19.5 KB | Mode: permanent
+
+[PROJECT] inercore-frontend-web-landing
+  [2026-10-22 22:37:40] [DELETED] /Users/mbairm12020/Documents/projek/inercorp222/backup/inercore-frontend-web-landing/node_modules | Size: 127.1 MB | Mode: permanent
+
+[PROJECT] mobile-flutter
+  [2026-10-22 22:37:42] [COMMAND] flutter clean
+  [2026-10-22 22:37:40] [DELETED] /Users/mbairm12020/Documents/projek/tes/mobile-flutter/build | Size: 87.7 MB | Mode: flutter clean
+  [2026-10-22 22:37:40] [DELETED] /Users/mbairm12020/Documents/projek/tes/mobile-flutter/.dart_tool | Size: 1.1 MB | Mode: flutter clean
+
+[PROJECT] raspi5
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/raspi5/node_modules | Size: 73.0 MB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/raspi5/dist | Size: 207.3 KB | Mode: permanent
+
+[PROJECT] web
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/bisakuliah/web/node_modules | Size: 64.8 MB | Mode: permanent
+
+[PROJECT] topmind-be-fastapi
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-be-fastapi/routers/__pycache__ | Size: 326.1 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-be-fastapi/utils/__pycache__ | Size: 6.2 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-be-fastapi/__pycache__ | Size: 58.8 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-be-fastapi/services/__pycache__ | Size: 55.9 KB | Mode: permanent
+
+[PROJECT] umkmate
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/umkmate/__pycache__ | Size: 62.6 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/umkmate/routes/__pycache__ | Size: 135.0 KB | Mode: permanent
+
+[PROJECT] topmind-scraper-fastapi-
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-scraper-fastapi-/app/routers/__pycache__ | Size: 16.1 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-scraper-fastapi-/app/core/__pycache__ | Size: 4.1 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-scraper-fastapi-/app/models/__pycache__ | Size: 9.6 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-scraper-fastapi-/app/__pycache__ | Size: 4.4 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/topmind/topmind-scraper-fastapi-/app/services/__pycache__ | Size: 70.6 KB | Mode: permanent
+
+[PROJECT] Vulnerability Detector
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/vuln/Vulnerability Detector/__pycache__ | Size: 62.3 KB | Mode: permanent
+
+[PROJECT] backend
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/app/core/__pycache__ | Size: 11.0 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/app/models/__pycache__ | Size: 3.6 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/app/__pycache__ | Size: 304 B | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/app/schemas/__pycache__ | Size: 7.2 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/app/crud/__pycache__ | Size: 10.6 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/app/api/__pycache__ | Size: 12.4 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/app/services/__pycache__ | Size: 10.6 KB | Mode: permanent
+  [2026-10-22 22:37:42] [DELETED] /Users/mbairm12020/Documents/projek/cs/backend/__pycache__ | Size: 4.5 KB | Mode: permanent
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 20.0 GB (21,430,326,169 bytes)
+  - Items Cleaned     : 114
+  - Commands Run      : 9
+  - Errors            : 0
+  - Finished At       : 2026-10-22 22:37:42
+================================================================================
+
