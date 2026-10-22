@@ -106,6 +106,26 @@ class ProjectScanner:
         discovered_projects.sort(key=lambda p: p.total_cleanable_bytes, reverse=True)
         return discovered_projects
 
+    def scan_multiple(
+        self,
+        root_paths: List[Path],
+        progress_callback: Optional[Callable[[str], None]] = None,
+    ) -> List[Project]:
+        """Scan multiple root paths (e.g. Drive C: and Drive D:) and return combined projects."""
+        combined_projects: List[Project] = []
+        seen_paths: Set[str] = set()
+
+        for rp in root_paths:
+            projs = self.scan(rp, progress_callback=progress_callback)
+            for p in projs:
+                p_str = str(p.path.resolve())
+                if p_str not in seen_paths:
+                    seen_paths.add(p_str)
+                    combined_projects.append(p)
+
+        combined_projects.sort(key=lambda p: p.total_cleanable_bytes, reverse=True)
+        return combined_projects
+
     def _check_and_add_project(
         self,
         dir_path: Path,

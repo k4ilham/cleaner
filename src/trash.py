@@ -19,13 +19,55 @@ def _handle_remove_readonly(func, path, exc_info):
         pass
 
 
+def _send_to_windows_recycle_bin(path_str: str) -> bool:
+    """Send file or folder to Windows Recycle Bin using native Win32 API."""
+    try:
+        import ctypes
+        from ctypes import wintypes
+
+        class SHFILEOPSTRUCTW(ctypes.Structure):
+            _fields_ = [
+                ("hwnd", wintypes.HWND),
+                ("wFunc", wintypes.UINT),
+                ("pFrom", wintypes.LPCWSTR),
+                ("pTo", wintypes.LPCWSTR),
+                ("fFlags", wintypes.WORD),
+                ("fAnyOperationsAborted", wintypes.BOOL),
+                ("hNameMappings", wintypes.LPVOID),
+                ("lpszProgressTitle", wintypes.LPCWSTR),
+            ]
+
+        FO_DELETE = 3
+        FOF_ALLOWUNDO = 0x0040
+        FOF_NOCONFIRMATION = 0x0010
+        FOF_SILENT = 0x0004
+        FOF_NOERRORUI = 0x0400
+
+        # Win32 expects double-null terminated string
+        pFrom = os.path.abspath(path_str) + "\0\0"
+        fileop = SHFILEOPSTRUCTW()
+        fileop.wFunc = FO_DELETE
+        fileop.pFrom = pFrom
+        fileop.fFlags = FOF_ALLOWUNDO | FOF_NOCONFIRMATION | FOF_SILENT | FOF_NOERRORUI
+
+        ret = ctypes.windll.shell32.SHFileOperationW(ctypes.byref(fileop))
+        return ret == 0
+    except Exception:
+        return False
+
+
 def send_to_trash(path: Path) -> bool:
     """
-    Send a file or directory to macOS Trash using AppleScript.
+    Send a file or directory to Windows Recycle Bin or macOS Trash.
     Falls back to normal delete if unsupported or failed.
     """
     path_str = str(path.resolve())
-    if platform.system() == "Darwin":
+    sys_name = platform.system()
+
+    if sys_name == "Windows":
+        return _send_to_windows_recycle_bin(path_str)
+
+    if sys_name == "Darwin":
         try:
             # Escape double quotes and backslashes for AppleScript
             escaped_path = path_str.replace("\\", "\\\\").replace('"', '\\"')

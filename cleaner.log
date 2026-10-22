@@ -308,3 +308,59 @@ SESSION SUMMARY:
   - Finished At       : 2026-10-22 23:15:51
 ================================================================================
 
+================================================================================
+PROJECT CLEANER LOG - 2026-10-22 23:45:48
+Target Directory : C:\Users\k4ilham
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 13
+================================================================================
+
+[PROJECT] Gradle Global Cache
+  [2026-10-22 23:45:31] [DELETED] C:\Users\k4ilham\.gradle\caches | Size: 6.3 GB | Mode: permanent
+
+[PROJECT] Windows User Temp (%TEMP%)
+  [2026-10-22 23:45:32] [DELETED] C:\Users\k4ilham\AppData\Local\Temp | Size: 2.8 GB | Mode: permanent
+
+[PROJECT] Windows Update Download Cache
+  [2026-10-22 23:45:32] [DELETED] C:\Windows\SoftwareDistribution\Download | Size: 1.6 GB | Mode: permanent
+
+[PROJECT] Gradle Wrapper Distributions
+  [2026-10-22 23:45:39] [DELETED] C:\Users\k4ilham\.gradle\wrapper\dists | Size: 888.4 MB | Mode: permanent
+
+[PROJECT] Google Chrome Code Cache
+  [2026-10-22 23:45:41] [DELETED] C:\Users\k4ilham\AppData\Local\Google\Chrome\User Data\Default\Code Cache | Size: 373.3 MB | Mode: permanent
+
+[PROJECT] Google Chrome Cache
+  [2026-10-22 23:45:41] [DELETED] C:\Users\k4ilham\AppData\Local\Google\Chrome\User Data\Default\Cache | Size: 162.3 MB | Mode: permanent
+
+[PROJECT] Windows Crash Dumps (.dmp)
+  [2026-10-22 23:45:41] [DELETED] C:\Users\k4ilham\AppData\Local\CrashDumps | Size: 117.0 MB | Mode: permanent
+
+[PROJECT] VS Code Cache
+  [2026-10-22 23:45:41] [DELETED] C:\Users\k4ilham\AppData\Roaming\Code\Cache | Size: 80.3 MB | Mode: permanent
+
+[PROJECT] Composer Global Cache
+  [2026-10-22 23:45:41] [DELETED] C:\Users\k4ilham\AppData\Local\Composer | Size: 69.3 MB | Mode: permanent
+
+[PROJECT] Microsoft Edge Cache
+  [2026-10-22 23:45:41] [DELETED] C:\Users\k4ilham\AppData\Local\Microsoft\Edge\User Data\Default\Cache | Size: 61.7 MB | Mode: permanent
+
+[PROJECT] Pip Global Cache
+  [2026-10-22 23:45:48] [COMMAND] C:\laragon\bin\python\python-3.10\python.exe -m pip cache purge
+  [2026-10-22 23:45:47] [DELETED] C:\Users\k4ilham\AppData\Local\pip\cache | Size: 57.6 MB | Mode: permanent
+
+[PROJECT] VS Code Cached V8 Data
+  [2026-10-22 23:45:47] [DELETED] C:\Users\k4ilham\AppData\Roaming\Code\CachedData | Size: 29.3 MB | Mode: permanent
+
+[PROJECT] Recycle Bin Drive C:
+  [2026-10-22 23:45:48] [DELETED] C:\$RECYCLE.BIN | Size: 10 B | Mode: permanent
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 12.5 GB (13,423,915,124 bytes)
+  - Items Cleaned     : 13
+  - Commands Run      : 1
+  - Errors            : 0
+  - Finished At       : 2026-10-22 23:45:48
+================================================================================
+

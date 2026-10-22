@@ -20,6 +20,18 @@ DEFAULT_IGNORE_DIRS = {
     ".vscode",
     ".idea",
     ".cursor",
+    # Windows-specific system and reserved directories
+    "$RECYCLE.BIN",
+    "$Recycle.Bin",
+    "System Volume Information",
+    "Windows",
+    "Program Files",
+    "Program Files (x86)",
+    "ProgramData",
+    "AppData",
+    "Recovery",
+    "PerfLogs",
+    "msdownld.tmp",
 }
 
 # Max scan depth by default
@@ -113,11 +125,42 @@ PROJECT_DEFINITIONS = {
         ],
         "command": ["cargo", "clean"],
     },
-    "go": {
-        "name": "Go",
+    "php": {
+        "name": "PHP / Laravel / Composer",
+        "markers": ["composer.json"],
+        "targets": [
+            "storage/logs",
+            "storage/framework/cache",
+            "storage/framework/views",
+            "storage/framework/sessions",
+            "bootstrap/cache",
+            ".phpunit.cache",
+            "var/cache",
+        ],
+        "optional_targets": [
+            "vendor",
+        ],
+    },
+    "golang": {
+        "name": "Go / Golang",
         "markers": ["go.mod"],
         "targets": [
-            # vendor is sometimes cleaned or kept, handled optionally
+            "bin",
+            "dist",
+            "tmp",
+            ".air_tmp",
         ],
+        "command": ["go", "clean"],
+    },
+    "dotnet": {
+        "name": ".NET / C#",
+        "markers": ["*.sln", "*.csproj", "*.fsproj"],
+        "targets": [
+            "bin",
+            "obj",
+            ".vs",
+            "TestResults",
+        ],
+        "command": ["dotnet", "clean"],
     },
 }

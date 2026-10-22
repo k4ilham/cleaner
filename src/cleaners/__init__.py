@@ -10,14 +10,20 @@ from .python import PythonCleaner
 from .gradle import GradleCleaner
 from .xcode import XcodeCleaner
 from .rust import RustCleaner
+from .php import PHPCleaner
+from .golang import GolangCleaner
+from .dotnet import DotNetCleaner
 
 CLEANER_CLASSES: List[Type[BaseCleaner]] = [
     FlutterCleaner,
+    PHPCleaner,
     NodeCleaner,
     PythonCleaner,
     GradleCleaner,
-    XcodeCleaner,
+    DotNetCleaner,
+    GolangCleaner,
     RustCleaner,
+    XcodeCleaner,
 ]
 
 

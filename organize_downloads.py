@@ -5,8 +5,19 @@ Rapikan dan bersihkan file unduhan ke dalam kategori otomatis dengan fitur UNDO.
 """
 
 import argparse
+import os
 import sys
 from pathlib import Path
+
+if sys.platform == "win32":
+    try:
+        if hasattr(sys.stdout, "reconfigure"):
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        if hasattr(sys.stderr, "reconfigure"):
+            sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+    os.system("")
 
 # Ensure current package can be imported
 sys.path.insert(0, str(Path(__file__).parent.resolve()))

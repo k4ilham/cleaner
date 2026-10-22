@@ -5,6 +5,18 @@ Terminal User Interface with ANSI colors, tables, and interactive prompts.
 import os
 import sys
 from typing import List, Optional
+
+if sys.platform == "win32":
+    try:
+        if hasattr(sys.stdout, "reconfigure"):
+            sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        if hasattr(sys.stderr, "reconfigure"):
+            sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+    # Enable ANSI escape sequences in Windows Command Prompt and PowerShell
+    os.system("")
+
 from .models import CleanResult, Project, format_size
 
 
@@ -45,7 +57,7 @@ def print_banner():
     banner = f"""
 {Colors.BRIGHT_CYAN}{Colors.BOLD}╔════════════════════════════════════════════════════════════════════════════╗
 ║                     🚀 PROJECT CLEANER FOR DEVELOPERS                      ║
-║        Flutter (clean) • Node (node_modules) • Python • Gradle • iOS        ║
+║     Flutter • Node • Python • PHP • Go • .NET • Gradle • Windows Caches    ║
 ╚════════════════════════════════════════════════════════════════════════════╝{Colors.RESET}
 """
     print(banner)
@@ -73,12 +85,16 @@ def type_badge(project_type: str, display_name: str) -> str:
         "flutter": Colors.BRIGHT_CYAN,
         "node": Colors.BRIGHT_GREEN,
         "python": Colors.BRIGHT_YELLOW,
-        "gradle": Colors.BRIGHT_MAGENTA,
-        "xcode": Colors.BRIGHT_BLUE,
+        "php": Colors.BRIGHT_MAGENTA,
+        "gradle": Colors.YELLOW,
+        "dotnet": Colors.BRIGHT_BLUE,
+        "golang": Colors.CYAN,
         "rust": Colors.BRIGHT_RED,
+        "xcode": Colors.BLUE,
     }
     col = colors.get(project_type, Colors.WHITE)
-    return f"{col}[{display_name}]{Colors.RESET}"
+    short_name = display_name.split("/")[0].strip()
+    return f"{col}[{short_name}]{Colors.RESET}"
 
 
 def display_project_table(
@@ -101,6 +117,10 @@ def display_project_table(
     print(f"{Colors.DIM}{'─' * 88}{Colors.RESET}")
 
     total_bytes = 0
+    # Determine if projects span multiple drives
+    unique_drives = {p.path.drive for p in filtered_projects if p.path.drive}
+    show_drive = len(unique_drives) > 1
+
     for idx, proj in enumerate(filtered_projects, 1):
         total_bytes += proj.total_cleanable_bytes
         
@@ -114,11 +134,12 @@ def display_project_table(
         if len(items_str) > 28:
             items_str = items_str[:25] + "..."
 
-        name_str = proj.name
+        prefix = f"{proj.path.drive} " if show_drive and proj.path.drive else ""
+        name_str = f"{prefix}{proj.name}"
         if len(name_str) > 23:
             name_str = name_str[:20] + "..."
 
-        badge = type_badge(proj.project_type, proj.display_name.split()[0])
+        badge = type_badge(proj.project_type, proj.display_name)
         
         size_color = Colors.BRIGHT_GREEN if proj.total_cleanable_bytes > 500 * 1024 * 1024 else Colors.WHITE
         size_str = f"{size_color}{proj.formatted_total_size:>12}{Colors.RESET}"
