@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Project Cleaner - CLI and Interactive Tool to clean developer projects.
-Supports Flutter, Node.js, Python, Gradle/Android, Xcode/iOS, Rust, and more.
+Project Cleaner - CLI and Interactive Tool to clean developer projects and system caches.
+Supports Flutter, Node.js, Python, Gradle/Android, Xcode/iOS, Rust, and System/Developer caches.
 Logs all deleted files and freed space to a .log file.
 """
 
@@ -19,6 +19,11 @@ from src.cleaners.base import BaseCleaner
 from src.logger import CleanerLogger
 from src.models import CleanResult, CleanTarget, Project, format_size
 from src.scanner import ProjectScanner
+from src.system_cleaner import (
+    SystemCacheItem,
+    clean_system_cache_item,
+    scan_system_caches,
+)
 from src.ui import (
     Colors,
     confirm_action,
@@ -86,6 +91,78 @@ def execute_cleaning_batch(
     return results
 
 
+def handle_system_cache_menu(logger: CleanerLogger, use_trash: bool = False):
+    """Submenu for scanning and cleaning system and developer global caches."""
+    print(f"\n{Colors.BOLD}{Colors.BRIGHT_CYAN}⚙️ MEMINDAI CACHE GLOBAL SISTEM & DEVELOPER...{Colors.RESET}")
+    items = scan_system_caches()
+    if not items:
+        print_info("Tidak ada cache sistem berukuran besar yang ditemukan.")
+        input(f"{Colors.DIM}Tekan Enter untuk kembali...{Colors.RESET}")
+        return
+
+    total_sys_bytes = sum(i.size_bytes for i in items)
+
+    print(f"\n{Colors.BOLD}{Colors.BRIGHT_WHITE}Daftar Cache Global & Aplikasi Ditemukan:{Colors.RESET}")
+    print(f"{Colors.DIM}{'─' * 80}{Colors.RESET}")
+    print(f" {'#':<4} {'NAMA CACHE':<28} {'KATEGORI':<20} {'UKURAN':>12}")
+    print(f"{Colors.DIM}{'─' * 80}{Colors.RESET}")
+
+    for idx, item in enumerate(items, 1):
+        print(f" {Colors.CYAN}{idx:<4}{Colors.RESET} {Colors.BOLD}{item.name:<28}{Colors.RESET} {item.category:<20} {Colors.BRIGHT_GREEN}{item.formatted_size:>12}{Colors.RESET}")
+        print(f"      {Colors.DIM}Path: {item.path} ({item.description}){Colors.RESET}")
+
+    print(f"{Colors.DIM}{'─' * 80}{Colors.RESET}")
+    print(f" Total Cache: {Colors.BRIGHT_GREEN}{Colors.BOLD}{format_size(total_sys_bytes)}{Colors.RESET}\n")
+
+    print("Pilihan:")
+    print(" [1] Bersihkan SEMUA cache sistem di atas")
+    print(" [2] Pilih nomor tertentu yang ingin dibersihkan (cth: 1, 3, 5)")
+    print(" [b] Kembali ke menu utama")
+
+    sub_choice = input(f"{Colors.BOLD}Pilihan Anda: {Colors.RESET}").strip().lower()
+    if sub_choice == "b":
+        return
+
+    items_to_clean: List[SystemCacheItem] = []
+    if sub_choice == "1":
+        items_to_clean = items
+    elif sub_choice == "2":
+        sel_str = input(f"Masukkan nomor (1-{len(items)}): ").strip()
+        indices = parse_index_selection(sel_str, len(items))
+        items_to_clean = [items[i] for i in indices]
+    else:
+        print_error("Pilihan tidak valid.")
+        return
+
+    if not items_to_clean:
+        print_warning("Tidak ada item yang dipilih.")
+        return
+
+    selected_bytes = sum(i.size_bytes for i in items_to_clean)
+    target_action_desc = "pindahkan ke macOS Trash" if use_trash else "HAPUS PERMANEN"
+    if not confirm_action(f"Yakin ingin {target_action_desc} cache sebesar {format_size(selected_bytes)}?"):
+        print("Pembersihan dibatalkan.")
+        return
+
+    print(f"\n{Colors.BOLD}Memulai pembersihan cache sistem...{Colors.RESET}")
+    results_by_name: Dict[str, CleanResult] = {}
+
+    for item in items_to_clean:
+        print(f"🧹 Membersihkan {Colors.CYAN}{item.name}{Colors.RESET} ({item.formatted_size})...")
+        res = clean_system_cache_item(item, dry_run=False, use_trash=use_trash)
+        results_by_name[item.name] = res
+
+    print_clean_results(results_by_name)
+    logged_path = logger.log_session(
+        target_dir=Path.home(),
+        results_by_project=results_by_name,
+        use_trash=use_trash,
+        dry_run=False,
+    )
+    print_success(f"Catatan pembersihan sistem dicatat di: {Colors.BOLD}{logged_path}{Colors.RESET}")
+    input(f"\n{Colors.DIM}Tekan Enter untuk kembali ke menu...{Colors.RESET}")
+
+
 def run_interactive_menu(
     root_path: Path,
     include_venv: bool = False,
@@ -122,30 +199,6 @@ def run_interactive_menu(
 
         display_project_table(projects, title=f"Projek Ditemukan di {root_path.name}")
 
-        if not active_projects:
-            print_success("Semua projek sudah bersih! Tidak ada file cache/build/node_modules yang perlu dibersihkan.")
-            print("\nPilihan:")
-            print(" [r] Scan ulang (Rescan)")
-            print(" [c] Ubah folder target")
-            print(" [l] Lihat riwayat log (.log)")
-            print(" [q] Keluar (Quit)")
-            choice = input(f"{Colors.BOLD}Pilihan Anda: {Colors.RESET}").strip().lower()
-            if choice == "c":
-                new_path = input("Masukkan path baru: ").strip()
-                if new_path and Path(os.path.expanduser(new_path)).is_dir():
-                    root_path = Path(os.path.expanduser(new_path))
-                continue
-            elif choice == "r":
-                continue
-            elif choice == "l":
-                print(f"\n{Colors.BOLD}=== 15 Baris Terakhir dari {logger.log_path} ==={Colors.RESET}")
-                print(logger.read_recent_lines(15))
-                input(f"{Colors.DIM}Tekan Enter untuk lanjut...{Colors.RESET}")
-                continue
-            else:
-                print("Sampai jumpa!")
-                break
-
         total_bytes = sum(p.total_cleanable_bytes for p in active_projects)
         flutter_projs = [p for p in active_projects if p.project_type == "flutter"]
         node_projs = [p for p in active_projects if p.project_type == "node"]
@@ -168,6 +221,7 @@ def run_interactive_menu(
         print(f" {Colors.CYAN}[6]{Colors.RESET} Bersihkan projek XCODE / IOS ({len(xcode_projs)} projek, {Colors.BRIGHT_GREEN}{xcode_size}{Colors.RESET})")
         print(f" {Colors.CYAN}[7]{Colors.RESET} Pilih projek tertentu berdasarkan nomor (cth: 1, 3, 5-8)")
         print(f" {Colors.CYAN}[8]{Colors.RESET} Bersihkan projek TIDAK AKTIF saja (> 30 hari tidak diedit)")
+        print(f" {Colors.BRIGHT_MAGENTA}[s]{Colors.RESET} {Colors.BOLD}Bersihkan CACHE GLOBAL SISTEM & DEVELOPER (~24 GB: NPM, Gradle, Chrome, dll){Colors.RESET}")
         print(f" {Colors.YELLOW}[t]{Colors.RESET} Ganti Mode Hapus (Saat ini: {trash_mode_text})")
         print(f" {Colors.CYAN}[l]{Colors.RESET} Lihat isi file log (.log)")
         print(f" {Colors.CYAN}[r]{Colors.RESET} Scan ulang direktori")
@@ -183,6 +237,9 @@ def run_interactive_menu(
         if choice in {"q", "exit"}:
             print("Keluar dari cleaner.")
             break
+        elif choice == "s":
+            handle_system_cache_menu(logger=logger, use_trash=use_trash)
+            continue
         elif choice == "t":
             use_trash = not use_trash
             continue
@@ -277,13 +334,14 @@ def run_interactive_menu(
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Project Cleaner CLI - Bersihkan build/cache projek Flutter, Node.js, Python, Gradle, iOS.",
+        description="Project Cleaner CLI - Bersihkan build/cache projek Flutter, Node.js, Python, Gradle, iOS, dan System Caches.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Contoh Penggunaan:
   python3 cleaner.py                        # Mode interaktif
   python3 cleaner.py ~/Documents/projek     # Mode interaktif pada folder tertentu
   python3 cleaner.py --scan                 # Analisa dan tampilkan ukuran (dry-run)
+  python3 cleaner.py --system-caches        # Bersihkan cache sistem & developer global
   python3 cleaner.py --flutter              # Bersihkan projek Flutter saja
   python3 cleaner.py --node                 # Bersihkan node_modules & build Node.js
   python3 cleaner.py --python               # Bersihkan __pycache__ & caches Python
@@ -301,6 +359,7 @@ Contoh Penggunaan:
         help="Path ke direktori yang ingin dibersihkan (default: direktori parent atau saat ini).",
     )
     parser.add_argument("-s", "--scan", "--dry-run", dest="dry_run", action="store_true", help="Hanya scan dan tampilkan ukuran tanpa menghapus.")
+    parser.add_argument("--system-caches", action="store_true", help="Scan dan bersihkan cache global sistem & developer (NPM, Gradle, Xcode, Chrome, dll).")
     parser.add_argument("--flutter", action="store_true", help="Hanya bersihkan projek Flutter (flutter clean & build).")
     parser.add_argument("--node", action="store_true", help="Hanya bersihkan projek Node.js (node_modules, .next, dist).")
     parser.add_argument("--python", action="store_true", help="Hanya bersihkan cache Python (__pycache__, pytest, dll).")
@@ -340,6 +399,11 @@ Contoh Penggunaan:
 
     custom_log_path = Path(os.path.expanduser(args.log_file)) if args.log_file else None
     logger = CleanerLogger(custom_log_path)
+
+    # Handle --system-caches via CLI
+    if args.system_caches:
+        handle_system_cache_menu(logger=logger, use_trash=args.trash)
+        return
 
     has_specific_action = (
         args.flutter
@@ -429,7 +493,6 @@ Contoh Penggunaan:
     )
     print_clean_results(results)
 
-    # Save to log file
     logged_path = logger.log_session(
         target_dir=target_dir,
         results_by_project=results,

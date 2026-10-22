@@ -227,3 +227,55 @@ SESSION SUMMARY:
   - Finished At       : 2026-10-22 22:37:42
 ================================================================================
 
+================================================================================
+PROJECT CLEANER LOG - 2026-10-22 22:49:33
+Target Directory : /Users/mbairm12020
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 11
+================================================================================
+
+[PROJECT] NPM Global Cache
+  [2026-10-22 22:49:33] [COMMAND] npm cache clean --force
+  [2026-10-22 22:47:56] [DELETED] /Users/mbairm12020/.npm | Size: 5.8 GB | Mode: permanent
+
+[PROJECT] Gradle Global Cache
+  [2026-10-22 22:48:07] [DELETED] /Users/mbairm12020/.gradle/caches | Size: 5.3 GB | Mode: permanent
+
+[PROJECT] Antigravity / Gemini Backup
+  [2026-10-22 22:48:09] [DELETED] /Users/mbairm12020/.gemini/antigravity-backup | Size: 4.3 GB | Mode: permanent
+
+[PROJECT] Google Chrome Cache
+  [2026-10-22 22:49:14] [DELETED] /Users/mbairm12020/Library/Caches/Google/Chrome | Size: 4.2 GB | Mode: permanent
+
+[PROJECT] Xcode DerivedData
+  [2026-10-22 22:49:16] [DELETED] /Users/mbairm12020/Library/Developer/Xcode/DerivedData | Size: 1.1 GB | Mode: permanent
+
+[PROJECT] Playwright Browsers Cache
+  [2026-10-22 22:49:17] [DELETED] /Users/mbairm12020/Library/Caches/ms-playwright | Size: 1.0 GB | Mode: permanent
+
+[PROJECT] Telegram Media Cache
+  [2026-10-22 22:49:17] [DELETED] /Users/mbairm12020/Library/Caches/ru.keepcoder.Telegram | Size: 881.2 MB | Mode: permanent
+
+[PROJECT] Trae Editor Cache
+  [2026-10-22 22:49:18] [DELETED] /Users/mbairm12020/Library/Caches/Trae | Size: 726.8 MB | Mode: permanent
+
+[PROJECT] GitHub Desktop Cache
+  [2026-10-22 22:49:20] [DELETED] /Users/mbairm12020/Library/Caches/com.github.GitHubClient.ShipIt | Size: 670.9 MB | Mode: permanent
+
+[PROJECT] Pip Cache
+  [2026-10-22 22:49:33] [COMMAND] python3 -m pip cache purge
+  [2026-10-22 22:49:21] [DELETED] /Users/mbairm12020/Library/Caches/pip | Size: 583.8 MB | Mode: permanent
+
+[PROJECT] Homebrew Cache
+  [2026-10-22 22:49:33] [COMMAND] brew cleanup --prune=all
+  [2026-10-22 22:49:33] [DELETED] /Users/mbairm12020/Library/Caches/Homebrew | Size: 184.9 MB | Mode: permanent
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 24.7 GB (26,529,605,453 bytes)
+  - Items Cleaned     : 11
+  - Commands Run      : 3
+  - Errors            : 0
+  - Finished At       : 2026-10-22 22:49:33
+================================================================================
+
