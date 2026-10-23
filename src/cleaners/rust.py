@@ -7,7 +7,7 @@ import subprocess
 from pathlib import Path
 from typing import List, Optional
 
-from ..models import CleanResult, CleanTarget, Project
+from ..models import CleanResult, CleanTarget, DeletedEntry, Project
 from ..trash import delete_target
 from ..utils import get_path_size
 from .base import BaseCleaner
@@ -71,11 +71,22 @@ class RustCleaner(BaseCleaner):
                 pass
 
         targets_to_clean = targets if targets is not None else project.targets
+        deletion_mode = "trash" if use_trash else "permanent"
+
         for target in targets_to_clean:
             if not target.path.exists() and not target.path.is_symlink():
                 result.freed_bytes += target.size_bytes
                 if target.relative_to_project not in result.deleted_items:
                     result.deleted_items.append(f"{target.relative_to_project} (via cargo clean)")
+                    result.deleted_entries.append(
+                        DeletedEntry(
+                            path=target.path,
+                            relative_path=target.relative_to_project,
+                            size_bytes=target.size_bytes,
+                            mode="cargo clean",
+                            project_name=project.name,
+                        )
+                    )
                 continue
 
             if dry_run:
@@ -86,6 +97,15 @@ class RustCleaner(BaseCleaner):
                 if success:
                     result.freed_bytes += target.size_bytes
                     result.deleted_items.append(target.relative_to_project)
+                    result.deleted_entries.append(
+                        DeletedEntry(
+                            path=target.path,
+                            relative_path=target.relative_to_project,
+                            size_bytes=target.size_bytes,
+                            mode=deletion_mode,
+                            project_name=project.name,
+                        )
+                    )
                 else:
                     result.failed_items.append((target.relative_to_project, error))
 

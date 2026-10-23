@@ -67,12 +67,14 @@ class PHPCleaner(BaseCleaner):
     def execute_clean(
         self,
         project: Project,
-        targets: List[CleanTarget],
+        targets: Optional[List[CleanTarget]] = None,
         dry_run: bool = False,
         use_trash: bool = False,
         prefer_cli: bool = True,
     ) -> CleanResult:
         result = CleanResult()
+        targets_to_clean = targets if targets is not None else project.targets
+        deletion_mode = "trash" if use_trash else "permanent"
         artisan_file = project.path / "artisan"
 
         if prefer_cli and artisan_file.is_file() and shutil.which("php"):
@@ -94,32 +96,32 @@ class PHPCleaner(BaseCleaner):
                     pass
 
         # Clean individual directory targets
-        for t in targets:
+        for t in targets_to_clean:
             if not t.path.exists() and not t.path.is_symlink():
-                result.skipped_items.append(t.relative_path)
+                result.skipped_items.append(t.relative_to_project)
                 continue
 
             # For Laravel storage subdirectories, preserve directory structure (.gitignore) if possible
             if dry_run:
                 result.freed_bytes += t.size_bytes
-                result.deleted_items.append(f"[DRY-RUN] {t.relative_path}")
+                result.deleted_items.append(f"[DRY-RUN] {t.relative_to_project}")
                 continue
 
             success, error = delete_target(t.path, use_trash=use_trash)
             if success:
                 result.freed_bytes += t.size_bytes
-                result.deleted_items.append(t.relative_path)
+                result.deleted_items.append(t.relative_to_project)
                 result.deleted_entries.append(
                     DeletedEntry(
                         path=t.path,
-                        relative_path=t.relative_path,
+                        relative_path=t.relative_to_project,
                         size_bytes=t.size_bytes,
-                        mode="trash" if use_trash else "permanent",
+                        mode=deletion_mode,
                         project_name=project.name,
                     )
                 )
                 # Re-create empty directory for storage folders so Laravel doesn't crash on next run
-                if t.is_dir and "storage" in t.relative_path:
+                if t.is_dir and "storage" in t.relative_to_project:
                     try:
                         t.path.mkdir(parents=True, exist_ok=True)
                         gitignore = t.path / ".gitignore"
@@ -128,6 +130,6 @@ class PHPCleaner(BaseCleaner):
                     except Exception:
                         pass
             else:
-                result.failed_items.append((t.relative_path, error))
+                result.failed_items.append((t.relative_to_project, error))
 
         return result

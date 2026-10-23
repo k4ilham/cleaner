@@ -63,6 +63,10 @@ class CleanTarget:
             return self.path.name
 
     @property
+    def relative_path(self) -> str:
+        return self.relative_to_project
+
+    @property
     def formatted_size(self) -> str:
         return format_size(self.size_bytes)
 
