@@ -127,3 +127,53 @@ python organize_downloads.py --auto
 # Batalkan perapian terakhir dan kembalikan posisi file semula (UNDO)
 python organize_downloads.py --undo
 ```
+
+
+---
+
+## 🗂️ Disk Usage & File Manager (GUI & CLI)
+
+Aplikasi File Manager interaktif modern untuk memindai isi folder, mendeteksi file & folder berukuran besar yang memakan kapasitas penyimpanan disk, serta menghapus file secara aman.
+
+### Fitur Utama:
+1. **Modern Dark GUI (CustomTkinter + Treeview)**:
+   - Tampilan bersih, intuitif, dan responsif.
+   - Banner status kapasitas disk real-time (Total, Terpakai, Sisa Ruang Bebas, serta indikator status kritis jika sisa disk < 10%).
+   - Baris alamat / breadcrumb dengan tombol *Naik*, *Browse*, dan *Refresh*.
+   - Pintasan cepat (Quick Shortcuts) ke: `C:\inercorp\download`, `C:\inercorp\Document`, `Downloads`, `Documents`, `Desktop`, dan `Drive C:`.
+2. **Pengurutan Berdasarkan Ukuran (Disk Usage Sorting)**:
+   - File dan folder diurutkan otomatis dari ukuran terbesar ke terkecil.
+   - Menampilkan persentase penggunaan disk relatif terhadap folder (`% Folder`).
+   - Kalkulasi ukuran subfolder berjalan di latar belakang (*background worker*) secara aman tanpa membuat jendela macet (*freeze*).
+3. **Deep Scan (Pencari File Terbesar di Subfolder)**:
+   - Menelusuri seluruh subfolder secara rekursif untuk menemukan Top 20, 50, atau 100 file terbesar (filter ukuran: >10MB, >50MB, >100MB, >500MB, >1GB).
+4. **Penghapusan Aman & Terkontrol**:
+   - **Pindahkan ke Windows Recycle Bin** (default & direkomendasikan): File dikirim ke Tempat Sampah Windows sehingga bisa di-*restore* jika diperlukan.
+   - **Hapus Permanen**: Menghapus file secara instan untuk langsung membebaskan kapasitas disk.
+   - Kotak dialog konfirmasi modern yang memperlihatkan daftar file terpilih dan total MB/GB ruang yang akan dibebaskan.
+   - Mendukung pemilihan multi-file (Ctrl/Shift + Click) untuk penghapusan massal.
+5. **Mode Terminal / CLI**:
+   - Mendukung pengoperasian interaktif langsung dari Command Prompt / PowerShell dengan tabel bergaya `rich`.
+
+### Cara Menjalankan File Manager:
+
+#### 1. Melalui Double-Click (Paling Mudah):
+Cukup klik dua kali file:
+```cmd
+run_file_manager.bat
+```
+
+#### 2. Melalui Terminal / Command Prompt:
+```powershell
+# Buka Antarmuka GUI Modern (Default)
+python file_manager.py
+
+# Buka GUI langsung pada folder tertentu
+python file_manager.py "C:\inercorp\download"
+
+# Buka mode interaktif Terminal / CLI
+python file_manager.py --cli
+
+# Langsung lakukan Deep Scan file terbesar di terminal
+python file_manager.py --cli --scan --top 25 --min-size 50MB
+```

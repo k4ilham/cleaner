@@ -364,3 +364,854 @@ SESSION SUMMARY:
   - Finished At       : 2026-10-22 23:45:48
 ================================================================================
 
+================================================================================
+PROJECT CLEANER LOG - 2026-11-01 19:54:01
+Target Directory : C:\
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 25
+================================================================================
+
+[PROJECT] sellercek-seller-mobile
+  [2026-11-01 19:53:52] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-mobile\build | Size: 3.1 GB | Mode: permanent
+  [2026-11-01 19:53:52] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-mobile\.dart_tool | Size: 238.7 MB | Mode: permanent
+  [2026-11-01 19:53:52] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-mobile\.flutter-plugins-dependencies | Size: 13.5 KB | Mode: permanent
+  [2026-11-01 19:53:52] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-mobile\android\.gradle | Size: 29.1 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] mobile
+  [2026-11-01 19:53:54] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\mobile\build | Size: 1.4 GB | Mode: permanent
+  [2026-11-01 19:53:54] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\mobile\.dart_tool | Size: 64.4 MB | Mode: permanent
+  [2026-11-01 19:53:54] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\mobile\.flutter-plugins | Size: 7.2 KB | Mode: permanent
+  [2026-11-01 19:53:54] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\mobile\.flutter-plugins-dependencies | Size: 20.3 KB | Mode: permanent
+  [2026-11-01 19:53:54] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\mobile\android\.gradle | Size: 7.2 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] qucerdas
+  [2026-11-01 19:54:01] [DELETED] C:\Maulana\01_Inercorp_Projects\inercorp\qucerdas\android\.gradle | Size: 35 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] magicbook_pro
+  [2026-11-01 19:53:55] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\magicbook_pro\build | Size: 487.8 MB | Mode: permanent
+  [2026-11-01 19:53:55] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\magicbook_pro\.dart_tool | Size: 75.2 MB | Mode: permanent
+  [2026-11-01 19:53:55] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\magicbook_pro\.flutter-plugins | Size: 5.7 KB | Mode: permanent
+  [2026-11-01 19:53:55] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\magicbook_pro\.flutter-plugins-dependencies | Size: 13.4 KB | Mode: permanent
+  [2026-11-01 19:53:55] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\magicbook_pro\android\.gradle | Size: 350.2 KB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] sab-bahana-mobile
+  [2026-11-01 19:53:56] [DELETED] C:\Maulana\02_Client_Business_Apps\sab\sab-bahana-mobile\build | Size: 480.4 MB | Mode: permanent
+  [2026-11-01 19:53:56] [DELETED] C:\Maulana\02_Client_Business_Apps\sab\sab-bahana-mobile\.dart_tool | Size: 46.0 MB | Mode: permanent
+  [2026-11-01 19:53:56] [DELETED] C:\Maulana\02_Client_Business_Apps\sab\sab-bahana-mobile\.flutter-plugins | Size: 3.0 KB | Mode: permanent
+  [2026-11-01 19:53:56] [DELETED] C:\Maulana\02_Client_Business_Apps\sab\sab-bahana-mobile\.flutter-plugins-dependencies | Size: 7.8 KB | Mode: permanent
+  [2026-11-01 19:53:56] [DELETED] C:\Maulana\02_Client_Business_Apps\sab\sab-bahana-mobile\android\.gradle | Size: 30.3 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] sab-bahana-flutter
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\sab-bahana-flutter\build | Size: 363.0 MB | Mode: permanent
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\sab-bahana-flutter\.dart_tool | Size: 51.8 MB | Mode: permanent
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\sab-bahana-flutter\.flutter-plugins | Size: 4.4 KB | Mode: permanent
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\sab-bahana-flutter\.flutter-plugins-dependencies | Size: 10.9 KB | Mode: permanent
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\sab-bahana-flutter\android\.gradle | Size: 5.7 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] firstanimal
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\01_Inercorp_Projects\inercorp\firstanimal\android\.gradle | Size: 22.3 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] mobile_muge
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\02_Client_Business_Apps\muge\mobile_muge\android\.gradle | Size: 58.3 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] augment reality
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\06_AI_MachineLearning\augment reality\android\.gradle | Size: 21.0 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter_absensi_app-dev
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\flutter_absensi_app-dev\android\.gradle | Size: 12.0 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] emoney saldo
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\02_Client_Business_Apps\emoney saldo\android\.gradle | Size: 6.6 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] inerqr
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\01_Inercorp_Projects\inercorp\inerqr\android\.gradle | Size: 5.8 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] Game Platformer
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\mobile game\Game Platformer\android\.gradle | Size: 3.4 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] myapp
+  [2026-11-01 19:54:00] [DELETED] C:\Ilham\user\myapp\android\.gradle | Size: 1.4 MB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] latihan1
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\03_Mobile_Apps\flutter\latihan1\android\.gradle | Size: 571.2 KB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter
+  [2026-11-01 19:54:00] [DELETED] C:\android\flutter\flutter\packages\flutter\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter_tools
+  [2026-11-01 19:54:00] [DELETED] C:\android\flutter\flutter\packages\flutter_tools\.dart_tool | Size: 54.1 KB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] charity-pos-mobile-live
+  [2026-11-01 19:54:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\charity-pos-mobile-live\android\.gradle | Size: 41.5 KB | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter_driver
+  [2026-11-01 19:54:00] [DELETED] C:\android\flutter\flutter\packages\flutter_driver\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter_goldens
+  [2026-11-01 19:54:00] [DELETED] C:\android\flutter\flutter\packages\flutter_goldens\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter_localizations
+  [2026-11-01 19:54:00] [DELETED] C:\android\flutter\flutter\packages\flutter_localizations\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter_test
+  [2026-11-01 19:54:01] [DELETED] C:\android\flutter\flutter\packages\flutter_test\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] flutter_web_plugins
+  [2026-11-01 19:54:01] [DELETED] C:\android\flutter\flutter\packages\flutter_web_plugins\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] fuchsia_remote_debug_protocol
+  [2026-11-01 19:54:01] [DELETED] C:\android\flutter\flutter\packages\fuchsia_remote_debug_protocol\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+[PROJECT] integration_test
+  [2026-11-01 19:54:01] [DELETED] C:\android\flutter\flutter\packages\integration_test\.dart_tool | Size: 40 B | Mode: permanent
+  [2026-11-01 19:54:01] [ERROR]   flutter clean: [WinError 2] The system cannot find the file specified
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 6.4 GB (6,906,837,550 bytes)
+  - Items Cleaned     : 44
+  - Commands Run      : 0
+  - Errors            : 25
+  - Finished At       : 2026-11-01 19:54:01
+================================================================================
+
+================================================================================
+PROJECT CLEANER LOG - 2026-11-01 20:01:18
+Target Directory : C:\
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 39
+================================================================================
+
+[PROJECT] Flowise
+  [2026-11-01 19:56:05] [DELETED] C:\Maulana\06_AI_MachineLearning\flowwise\Flowise\node_modules | Size: 1.4 GB | Mode: permanent
+  [2026-11-01 19:56:05] [DELETED] C:\Maulana\06_AI_MachineLearning\flowwise\Flowise\.turbo | Size: 0 B | Mode: permanent
+
+[PROJECT] nextjs blog
+  [2026-11-01 19:56:17] [DELETED] C:\Maulana\12_Misc_Workspace\trae\nextjs blog\node_modules | Size: 548.0 MB | Mode: permanent
+  [2026-11-01 19:56:17] [DELETED] C:\Maulana\12_Misc_Workspace\trae\nextjs blog\.next | Size: 98.4 MB | Mode: permanent
+
+[PROJECT] hash
+  [2026-11-01 19:56:25] [DELETED] C:\Ilham\hash\node_modules | Size: 421.0 MB | Mode: permanent
+
+[PROJECT] next-api
+  [2026-11-01 19:56:27] [DELETED] C:\Maulana\04_Web_Frontend\next\next-api\node_modules | Size: 359.7 MB | Mode: permanent
+  [2026-11-01 19:56:28] [DELETED] C:\Maulana\04_Web_Frontend\next\next-api\.next | Size: 17.8 MB | Mode: permanent
+
+[PROJECT] frontend-siawas
+  [2026-11-01 19:57:07] [DELETED] C:\Maulana\02_Client_Business_Apps\siawas\frontend-siawas\node_modules | Size: 300.3 MB | Mode: permanent
+  [2026-11-01 19:57:07] [DELETED] C:\Maulana\02_Client_Business_Apps\siawas\frontend-siawas\dist | Size: 6.5 MB | Mode: permanent
+
+[PROJECT] my-app
+  [2026-11-01 19:57:12] [DELETED] C:\Maulana\04_Web_Frontend\next\my-app\node_modules | Size: 273.0 MB | Mode: permanent
+  [2026-11-01 19:57:12] [DELETED] C:\Maulana\04_Web_Frontend\next\my-app\.next | Size: 25.2 MB | Mode: permanent
+
+[PROJECT] BelajarReactNative
+  [2026-11-01 19:57:33] [DELETED] C:\Maulana\03_Mobile_Apps\reactnative\BelajarReactNative\node_modules | Size: 258.9 MB | Mode: permanent
+
+[PROJECT] frontend-ecommerce-nuxt
+  [2026-11-01 19:57:59] [DELETED] C:\Maulana\01_Inercorp_Projects\inercorp\frontend-ecommerce-nuxt\node_modules | Size: 225.0 MB | Mode: permanent
+  [2026-11-01 19:57:59] [DELETED] C:\Maulana\01_Inercorp_Projects\inercorp\frontend-ecommerce-nuxt\dist | Size: 26.3 MB | Mode: permanent
+
+[PROJECT] web
+  [2026-11-01 19:58:11] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse\web\node_modules | Size: 225.0 MB | Mode: permanent
+  [2026-11-01 19:58:11] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse\web\dist | Size: 26.3 MB | Mode: permanent
+
+[PROJECT] frontend-kwtalmina
+  [2026-11-01 19:58:24] [DELETED] C:\Maulana\02_Client_Business_Apps\kwtalmina\frontend-kwtalmina\node_modules | Size: 223.2 MB | Mode: permanent
+  [2026-11-01 19:58:24] [DELETED] C:\Maulana\02_Client_Business_Apps\kwtalmina\frontend-kwtalmina\dist | Size: 24.1 MB | Mode: permanent
+
+[PROJECT] blue-saas-auth-portal
+  [2026-11-01 19:58:33] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\blue-saas-auth-portal\node_modules | Size: 235.7 MB | Mode: permanent
+  [2026-11-01 19:58:33] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\blue-saas-auth-portal\dist | Size: 531.0 KB | Mode: permanent
+
+[PROJECT] sellercek-fe
+  [2026-11-01 19:58:52] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-fe\node_modules | Size: 207.9 MB | Mode: permanent
+  [2026-11-01 19:58:52] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-fe\dist | Size: 2.2 MB | Mode: permanent
+  [2026-11-01 19:58:52] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-fe\.astro | Size: 5.8 KB | Mode: permanent
+
+[PROJECT] sellercek-admin
+  [2026-11-01 19:58:57] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-admin\node_modules | Size: 179.3 MB | Mode: permanent
+  [2026-11-01 19:58:57] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-admin\dist | Size: 3.8 MB | Mode: permanent
+  [2026-11-01 19:58:57] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-admin\.astro | Size: 5.8 KB | Mode: permanent
+
+[PROJECT] inercourse-api
+  [2026-11-01 19:59:32] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse-api\node_modules | Size: 167.3 MB | Mode: permanent
+  [2026-11-01 19:59:32] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse-api\dist | Size: 264.0 KB | Mode: permanent
+
+[PROJECT] crm-frontend-astro-react
+  [2026-11-01 19:59:15] [DELETED] C:\Maulana\01_Inercorp_Projects\innovus\crm-frontend-astro-react\node_modules | Size: 178.5 MB | Mode: permanent
+  [2026-11-01 19:59:15] [DELETED] C:\Maulana\01_Inercorp_Projects\innovus\crm-frontend-astro-react\dist | Size: 525.0 KB | Mode: permanent
+  [2026-11-01 19:59:15] [DELETED] C:\Maulana\01_Inercorp_Projects\innovus\crm-frontend-astro-react\.astro | Size: 5.7 KB | Mode: permanent
+
+[PROJECT] pacman-bo-pg-doc
+  [2026-11-01 19:59:21] [DELETED] C:\Ilham\doc\pacman-bo-pg-doc\node_modules | Size: 176.1 MB | Mode: permanent
+  [2026-11-01 19:59:21] [DELETED] C:\Ilham\doc\pacman-bo-pg-doc\.astro | Size: 19.3 KB | Mode: permanent
+
+[PROJECT] bun-api
+  [2026-11-01 19:59:33] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\bun-api\node_modules | Size: 153.9 MB | Mode: permanent
+
+[PROJECT] frontend-masjid
+  [2026-11-01 19:59:38] [DELETED] C:\Maulana\02_Client_Business_Apps\masjid\frontend-masjid\node_modules | Size: 151.2 MB | Mode: permanent
+
+[PROJECT] apiexpress
+  [2026-11-01 19:59:38] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\apiexpress\node_modules | Size: 149.5 MB | Mode: permanent
+
+[PROJECT] pacman-bo-pg
+  [2026-11-01 19:59:45] [DELETED] C:\Ilham\vertu\pacman-bo-pg\node_modules | Size: 80.1 MB | Mode: permanent
+  [2026-11-01 19:59:46] [DELETED] C:\Ilham\vertu\pacman-bo-pg\dist | Size: 36.4 MB | Mode: permanent
+
+[PROJECT] inermap
+  [2026-11-01 19:59:51] [DELETED] C:\Maulana\01_Inercorp_Projects\inermap\node_modules | Size: 107.6 MB | Mode: permanent
+  [2026-11-01 19:59:51] [DELETED] C:\Maulana\01_Inercorp_Projects\inermap\dist | Size: 458.3 KB | Mode: permanent
+
+[PROJECT] inercourse-express-api
+  [2026-11-01 19:59:58] [DELETED] C:\Maulana\01_Inercorp_Projects\inercorp\inercourse-express-api\node_modules | Size: 104.4 MB | Mode: permanent
+  [2026-11-01 19:59:58] [DELETED] C:\Maulana\01_Inercorp_Projects\inercorp\inercourse-express-api\dist | Size: 4.1 KB | Mode: permanent
+
+[PROJECT] fe-nanang
+  [2026-11-01 20:00:01] [DELETED] C:\Maulana\02_Client_Business_Apps\nanang\fe-nanang\node_modules | Size: 100.6 MB | Mode: permanent
+  [2026-11-01 20:00:01] [DELETED] C:\Maulana\02_Client_Business_Apps\nanang\fe-nanang\dist | Size: 409.1 KB | Mode: permanent
+
+[PROJECT] chatgpt
+  [2026-11-01 20:00:07] [DELETED] C:\Maulana\12_Misc_Workspace\project\chatgpt\node_modules | Size: 95.5 MB | Mode: permanent
+  [2026-11-01 20:00:07] [DELETED] C:\Maulana\12_Misc_Workspace\project\chatgpt\dist | Size: 296.8 KB | Mode: permanent
+
+[PROJECT] app
+  [2026-11-01 20:00:11] [DELETED] C:\Maulana\09_DevOps_Database\n8n\app\node_modules | Size: 87.9 MB | Mode: permanent
+
+[PROJECT] sadsa
+  [2026-11-01 20:00:26] [DELETED] C:\Maulana\12_Misc_Workspace\project\sadsa\node_modules | Size: 69.6 MB | Mode: permanent
+
+[PROJECT] whatsapp-bot
+  [2026-11-01 20:00:31] [DELETED] C:\Maulana\12_Misc_Workspace\project\whatsapp-bot\node_modules | Size: 66.8 MB | Mode: permanent
+
+[PROJECT] landing
+  [2026-11-01 20:00:33] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\landing\node_modules | Size: 51.7 MB | Mode: permanent
+
+[PROJECT] Wa-OpenAI
+  [2026-11-01 20:00:37] [DELETED] C:\Maulana\07_Scraping_Bots_Tools\bot\Wa-OpenAI\node_modules | Size: 51.0 MB | Mode: permanent
+
+[PROJECT] whatsapp-web-docker
+  [2026-11-01 20:00:42] [DELETED] C:\Maulana\07_Scraping_Bots_Tools\bot\whatsapp-web-docker\node_modules | Size: 48.4 MB | Mode: permanent
+
+[PROJECT] WaBot-Broadcast
+  [2026-11-01 20:00:45] [DELETED] C:\Maulana\07_Scraping_Bots_Tools\bot\WaBot-Broadcast\node_modules | Size: 48.1 MB | Mode: permanent
+
+[PROJECT] tes
+  [2026-11-01 20:01:08] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\tes\node_modules | Size: 47.4 MB | Mode: permanent
+
+[PROJECT] agy9
+  [2026-11-01 20:01:11] [DELETED] C:\app\agy9\node_modules | Size: 43.4 MB | Mode: permanent
+
+[PROJECT] project1
+  [2026-11-01 20:01:11] [DELETED] C:\Maulana\05_Web_Backend_PHP\bun\project1\node_modules | Size: 33.2 MB | Mode: permanent
+
+[PROJECT] bookshelf-API
+  [2026-11-01 20:01:14] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\dicoding\bookshelf-API\node_modules | Size: 19.1 MB | Mode: permanent
+
+[PROJECT] latihan
+  [2026-11-01 20:01:17] [DELETED] C:\Ilham\latihan\node_modules | Size: 18.7 MB | Mode: permanent
+
+[PROJECT] youtube-dl
+  [2026-11-01 20:01:17] [DELETED] C:\Maulana\07_Scraping_Bots_Tools\bot\youtube-dl\node_modules | Size: 13.7 MB | Mode: permanent
+
+[PROJECT] ssyoutube-api
+  [2026-11-01 20:01:18] [DELETED] C:\Maulana\07_Scraping_Bots_Tools\bot\ssyoutube-api\node_modules | Size: 4.3 MB | Mode: permanent
+
+[PROJECT] express-api
+  [2026-11-01 20:01:18] [DELETED] C:\Maulana\12_Misc_Workspace\dll\express-api\node_modules | Size: 1.6 MB | Mode: permanent
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 7.1 GB (7,618,736,074 bytes)
+  - Items Cleaned     : 61
+  - Commands Run      : 0
+  - Errors            : 0
+  - Finished At       : 2026-11-01 20:01:18
+================================================================================
+
+================================================================================
+PROJECT CLEANER LOG - 2026-11-01 20:02:13
+Target Directory : C:\
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 16
+================================================================================
+
+[PROJECT] aplikasi scanner
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\build | Size: 94.9 MB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\dist | Size: 78.9 MB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\app\core\__pycache__ | Size: 1.5 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\app\services\__pycache__ | Size: 44.2 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\app\ui\ribbons\__pycache__ | Size: 25.6 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\app\ui\widgets\__pycache__ | Size: 49.6 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\app\ui\__pycache__ | Size: 71.2 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\app\__pycache__ | Size: 143 B | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\aplikasi scanner\__pycache__ | Size: 53.2 KB | Mode: permanent
+
+[PROJECT] sellercek-be
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\.pytest_cache | Size: 830 B | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\alembic\versions\__pycache__ | Size: 185.6 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\alembic\__pycache__ | Size: 8.1 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\api\public\__pycache__ | Size: 28.6 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\api\seller\__pycache__ | Size: 5.2 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\api\__pycache__ | Size: 1.7 MB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\core\__pycache__ | Size: 73.2 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\crud\__pycache__ | Size: 21.4 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\db\__pycache__ | Size: 238.8 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\schemas\__pycache__ | Size: 9.6 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\app\services\__pycache__ | Size: 271.4 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\database\migrations\__pycache__ | Size: 13.1 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\database\seeders\__pycache__ | Size: 7.2 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-be\__pycache__ | Size: 74.2 KB | Mode: permanent
+
+[PROJECT] topmind be fastapi
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind be fastapi\routers\__pycache__ | Size: 295.9 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind be fastapi\services\__pycache__ | Size: 49.9 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind be fastapi\utils\__pycache__ | Size: 6.2 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind be fastapi\__pycache__ | Size: 70.4 KB | Mode: permanent
+
+[PROJECT] be-nanang
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\nanang\be-nanang\__pycache__ | Size: 200.2 KB | Mode: permanent
+
+[PROJECT] umkmate
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\umkmate\routes\__pycache__ | Size: 135.6 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\umkmate\__pycache__ | Size: 62.7 KB | Mode: permanent
+
+[PROJECT] sellercek-seller-be
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-be\app\api\v1\__pycache__ | Size: 26.0 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-be\app\core\__pycache__ | Size: 24.8 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-be\app\schemas\__pycache__ | Size: 9.1 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-be\app\services\__pycache__ | Size: 50.3 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sellercek\sellercek-seller-be\app\__pycache__ | Size: 41.3 KB | Mode: permanent
+
+[PROJECT] crm-backend-fastapi
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\01_Inercorp_Projects\innovus\crm-backend-fastapi\routers\__pycache__ | Size: 48.0 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\01_Inercorp_Projects\innovus\crm-backend-fastapi\__pycache__ | Size: 47.9 KB | Mode: permanent
+
+[PROJECT] be-sosmed
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\sosmed management\be-sosmed\__pycache__ | Size: 88.7 KB | Mode: permanent
+
+[PROJECT] topmind scraper fastapi
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind scraper fastapi\app\core\__pycache__ | Size: 3.9 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind scraper fastapi\app\models\__pycache__ | Size: 7.4 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind scraper fastapi\app\routers\__pycache__ | Size: 14.8 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind scraper fastapi\app\services\__pycache__ | Size: 45.7 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind scraper fastapi\app\__pycache__ | Size: 4.3 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\02_Client_Business_Apps\topmind\topmind scraper fastapi\__pycache__ | Size: 11.3 KB | Mode: permanent
+
+[PROJECT] respina
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\respina\app\routers\admin\__pycache__ | Size: 14.6 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\respina\app\routers\member\__pycache__ | Size: 3.7 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\respina\app\routers\pengurus\__pycache__ | Size: 3.8 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\respina\app\routers\web\__pycache__ | Size: 2.5 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\respina\app\routers\__pycache__ | Size: 8.3 KB | Mode: permanent
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\12_Misc_Workspace\project\respina\app\__pycache__ | Size: 20.2 KB | Mode: permanent
+
+[PROJECT] SCsVulLyzer-V2.0
+  [2026-11-01 20:02:13] [DELETED] C:\app\bccc\SCsVulLyzer\SCsVulLyzer-V2.0\__pycache__ | Size: 43.7 KB | Mode: permanent
+
+[PROJECT] yolo-v3
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\python\yolo-v3\__pycache__ | Size: 26.1 KB | Mode: permanent
+
+[PROJECT] ragllm
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\06_AI_MachineLearning\ragllm\__pycache__ | Size: 18.1 KB | Mode: permanent
+
+[PROJECT] Sentiment-Analysis-Dashboard
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\python\Sentiment-Analysis-Dashboard\__pycache__ | Size: 15.3 KB | Mode: permanent
+
+[PROJECT] facerecognition
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\facerecognition\__pycache__ | Size: 2.8 KB | Mode: permanent
+
+[PROJECT] inerscraping
+  [2026-11-01 20:02:13] [DELETED] C:\Maulana\01_Inercorp_Projects\inerscraping\__pycache__ | Size: 583 B | Mode: permanent
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 177.9 MB (186,586,812 bytes)
+  - Items Cleaned     : 56
+  - Commands Run      : 0
+  - Errors            : 0
+  - Finished At       : 2026-11-01 20:02:13
+================================================================================
+
+================================================================================
+PROJECT CLEANER LOG - 2026-11-01 20:03:26
+Target Directory : C:\
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 49
+================================================================================
+
+[PROJECT] sikebas
+  [2026-11-01 20:02:58] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sikebas\node_modules | Size: 54.7 MB | Mode: permanent
+  [2026-11-01 20:02:58] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sikebas\public\build | Size: 402.7 KB | Mode: permanent
+  [2026-11-01 20:02:58] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sikebas\storage\logs | Size: 40.9 MB | Mode: permanent
+  [2026-11-01 20:02:58] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sikebas\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:02:58] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sikebas\storage\framework\views | Size: 441.0 KB | Mode: permanent
+  [2026-11-01 20:02:58] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sikebas\storage\framework\sessions | Size: 1019 B | Mode: permanent
+  [2026-11-01 20:02:58] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sikebas\bootstrap\cache | Size: 21.8 KB | Mode: permanent
+
+[PROJECT] SiKebas_new
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\SiKebas_new\node_modules | Size: 54.7 MB | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\SiKebas_new\public\build | Size: 402.7 KB | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\SiKebas_new\storage\logs | Size: 40.8 MB | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\SiKebas_new\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\SiKebas_new\storage\framework\views | Size: 370.1 KB | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\SiKebas_new\storage\framework\sessions | Size: 384 B | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\SiKebas_new\bootstrap\cache | Size: 21.8 KB | Mode: permanent
+
+[PROJECT] sab
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sab\node_modules | Size: 33.9 MB | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sab\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:00] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sab\storage\logs | Size: 28.5 MB | Mode: permanent
+  [2026-11-01 20:03:01] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sab\storage\framework\cache | Size: 157 B | Mode: permanent
+  [2026-11-01 20:03:01] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sab\storage\framework\views | Size: 1.9 MB | Mode: permanent
+  [2026-11-01 20:03:01] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sab\storage\framework\sessions | Size: 455 B | Mode: permanent
+  [2026-11-01 20:03:01] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sab\bootstrap\cache | Size: 24.6 KB | Mode: permanent
+
+[PROJECT] hotel
+  [2026-11-01 20:03:05] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hotel\node_modules | Size: 63.4 MB | Mode: permanent
+  [2026-11-01 20:03:05] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hotel\public\build | Size: 66.1 KB | Mode: permanent
+  [2026-11-01 20:03:05] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hotel\storage\logs | Size: 614.7 KB | Mode: permanent
+  [2026-11-01 20:03:05] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hotel\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:05] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hotel\storage\framework\views | Size: 176.9 KB | Mode: permanent
+  [2026-11-01 20:03:05] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hotel\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:05] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hotel\bootstrap\cache | Size: 21.8 KB | Mode: permanent
+
+[PROJECT] hris
+  [2026-11-01 20:03:06] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hris\node_modules | Size: 33.9 MB | Mode: permanent
+  [2026-11-01 20:03:06] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hris\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:06] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hris\storage\logs | Size: 25.7 MB | Mode: permanent
+  [2026-11-01 20:03:06] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hris\storage\framework\cache | Size: 1.1 KB | Mode: permanent
+  [2026-11-01 20:03:06] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hris\storage\framework\views | Size: 1.9 MB | Mode: permanent
+  [2026-11-01 20:03:06] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hris\storage\framework\sessions | Size: 1.8 KB | Mode: permanent
+  [2026-11-01 20:03:06] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\hris\bootstrap\cache | Size: 24.1 KB | Mode: permanent
+
+[PROJECT] skeleton-laravel-inertia-vue
+  [2026-11-01 20:03:11] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\skeleton-laravel-inertia-vue\node_modules | Size: 57.7 MB | Mode: permanent
+  [2026-11-01 20:03:11] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\skeleton-laravel-inertia-vue\storage\logs | Size: 70.9 KB | Mode: permanent
+  [2026-11-01 20:03:11] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\skeleton-laravel-inertia-vue\storage\framework\cache | Size: 1.7 KB | Mode: permanent
+  [2026-11-01 20:03:11] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\skeleton-laravel-inertia-vue\storage\framework\views | Size: 9.0 KB | Mode: permanent
+  [2026-11-01 20:03:11] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\skeleton-laravel-inertia-vue\storage\framework\sessions | Size: 434 B | Mode: permanent
+  [2026-11-01 20:03:11] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\skeleton-laravel-inertia-vue\bootstrap\cache | Size: 21.9 KB | Mode: permanent
+
+[PROJECT] otomitra
+  [2026-11-01 20:03:12] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\otomitra\node_modules | Size: 33.9 MB | Mode: permanent
+  [2026-11-01 20:03:12] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\otomitra\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:12] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\otomitra\storage\logs | Size: 21.7 MB | Mode: permanent
+  [2026-11-01 20:03:12] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\otomitra\storage\framework\cache | Size: 1.1 KB | Mode: permanent
+  [2026-11-01 20:03:12] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\otomitra\storage\framework\views | Size: 1.7 MB | Mode: permanent
+  [2026-11-01 20:03:12] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\otomitra\storage\framework\sessions | Size: 290 B | Mode: permanent
+  [2026-11-01 20:03:12] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\otomitra\bootstrap\cache | Size: 24.3 KB | Mode: permanent
+
+[PROJECT] inercorp
+  [2026-11-01 20:03:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\inercorp\node_modules | Size: 33.9 MB | Mode: permanent
+  [2026-11-01 20:03:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\inercorp\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\inercorp\storage\logs | Size: 18.7 MB | Mode: permanent
+  [2026-11-01 20:03:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\inercorp\storage\framework\cache | Size: 1.1 KB | Mode: permanent
+  [2026-11-01 20:03:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\inercorp\storage\framework\views | Size: 1.6 MB | Mode: permanent
+  [2026-11-01 20:03:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\inercorp\storage\framework\sessions | Size: 666 B | Mode: permanent
+  [2026-11-01 20:03:13] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\inercorp\bootstrap\cache | Size: 23.9 KB | Mode: permanent
+
+[PROJECT] ProjectSIA2
+  [2026-11-01 20:03:14] [DELETED] C:\Maulana\02_Client_Business_Apps\ProjectSIA2\node_modules | Size: 49.3 MB | Mode: permanent
+  [2026-11-01 20:03:14] [DELETED] C:\Maulana\02_Client_Business_Apps\ProjectSIA2\public\build | Size: 482.6 KB | Mode: permanent
+  [2026-11-01 20:03:14] [DELETED] C:\Maulana\02_Client_Business_Apps\ProjectSIA2\storage\logs | Size: 2.3 MB | Mode: permanent
+  [2026-11-01 20:03:14] [DELETED] C:\Maulana\02_Client_Business_Apps\ProjectSIA2\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:14] [DELETED] C:\Maulana\02_Client_Business_Apps\ProjectSIA2\storage\framework\views | Size: 136.2 KB | Mode: permanent
+  [2026-11-01 20:03:14] [DELETED] C:\Maulana\02_Client_Business_Apps\ProjectSIA2\storage\framework\sessions | Size: 358 B | Mode: permanent
+  [2026-11-01 20:03:14] [DELETED] C:\Maulana\02_Client_Business_Apps\ProjectSIA2\bootstrap\cache | Size: 22.1 KB | Mode: permanent
+
+[PROJECT] kpmi
+  [2026-11-01 20:03:18] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\kpmi\node_modules | Size: 45.5 MB | Mode: permanent
+  [2026-11-01 20:03:18] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\kpmi\public\build | Size: 54.1 KB | Mode: permanent
+  [2026-11-01 20:03:18] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\kpmi\storage\logs | Size: 2.1 MB | Mode: permanent
+  [2026-11-01 20:03:18] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\kpmi\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:18] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\kpmi\storage\framework\views | Size: 286.3 KB | Mode: permanent
+  [2026-11-01 20:03:18] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\kpmi\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:18] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\kpmi\bootstrap\cache | Size: 27.6 KB | Mode: permanent
+
+[PROJECT] web
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\web\storage\logs | Size: 62.3 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\web\storage\framework\cache | Size: 10.2 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\web\storage\framework\views | Size: 4.9 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\web\storage\framework\sessions | Size: 730 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\02_Client_Business_Apps\posyandu\web\bootstrap\cache | Size: 25.8 KB | Mode: permanent
+
+[PROJECT] rudikurniawan
+  [2026-11-01 20:03:19] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudikurniawan\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:19] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudikurniawan\storage\logs | Size: 31.3 MB | Mode: permanent
+  [2026-11-01 20:03:19] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudikurniawan\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudikurniawan\storage\framework\views | Size: 1.0 MB | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudikurniawan\storage\framework\sessions | Size: 3.4 KB | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudikurniawan\bootstrap\cache | Size: 24.6 KB | Mode: permanent
+
+[PROJECT] banksampahtrialamlestari
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\banksampahtrialamlestari\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\banksampahtrialamlestari\storage\logs | Size: 31.2 MB | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\banksampahtrialamlestari\storage\framework\cache | Size: 1.1 KB | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\banksampahtrialamlestari\storage\framework\views | Size: 1.0 MB | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\banksampahtrialamlestari\storage\framework\sessions | Size: 1.6 KB | Mode: permanent
+  [2026-11-01 20:03:20] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\banksampahtrialamlestari\bootstrap\cache | Size: 24.6 KB | Mode: permanent
+
+[PROJECT] lara-dusk
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\node_modules | Size: 31.9 MB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\public\build | Size: 100.9 KB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\storage\logs | Size: 28.6 KB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\storage\framework\views | Size: 94.7 KB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\storage\framework\sessions | Size: 2.8 KB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\bootstrap\cache | Size: 21.3 KB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-dusk\.phpunit.cache | Size: 324 B | Mode: permanent
+
+[PROJECT] sabira
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira\storage\logs | Size: 30.9 MB | Mode: permanent
+  [2026-11-01 20:03:21] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira\storage\framework\cache | Size: 1.1 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira\storage\framework\views | Size: 681.8 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira\storage\framework\sessions | Size: 7.8 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira\bootstrap\cache | Size: 24.6 KB | Mode: permanent
+
+[PROJECT] sabira_backup
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira_backup\public\build | Size: 329.5 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira_backup\storage\logs | Size: 30.5 MB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira_backup\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira_backup\storage\framework\views | Size: 107.7 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira_backup\storage\framework\sessions | Size: 456 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\sabira_backup\bootstrap\cache | Size: 24.6 KB | Mode: permanent
+
+[PROJECT] ineredu
+  [2026-11-01 20:03:26] [DELETED] C:\Ilham\gateway\dll\ineredu\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Ilham\gateway\dll\ineredu\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Ilham\gateway\dll\ineredu\storage\framework\views | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Ilham\gateway\dll\ineredu\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Ilham\gateway\dll\ineredu\bootstrap\cache | Size: 14 B | Mode: permanent
+
+[PROJECT] ineredu_1
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_1\storage\logs | Size: 14.7 MB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_1\storage\framework\cache | Size: 2.0 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_1\storage\framework\views | Size: 225.5 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_1\storage\framework\sessions | Size: 408 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_1\bootstrap\cache | Size: 25.6 KB | Mode: permanent
+
+[PROJECT] crater
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\crater\public\build | Size: 12.5 MB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\crater\storage\logs | Size: 16 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\crater\storage\framework\cache | Size: 16 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\crater\storage\framework\views | Size: 16 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\crater\storage\framework\sessions | Size: 16 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\crater\bootstrap\cache | Size: 16 B | Mode: permanent
+
+[PROJECT] respina
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\respina\storage\logs | Size: 5.9 MB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\respina\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\respina\storage\framework\views | Size: 117.5 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\respina\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\respina\bootstrap\cache | Size: 22.4 KB | Mode: permanent
+
+[PROJECT] nasyiahtangsel
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\nasyiahtangsel\storage\logs | Size: 2.8 MB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\nasyiahtangsel\storage\framework\cache | Size: 117 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\nasyiahtangsel\storage\framework\views | Size: 603.9 KB | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\nasyiahtangsel\storage\framework\sessions | Size: 570 B | Mode: permanent
+  [2026-11-01 20:03:22] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\nasyiahtangsel\bootstrap\cache | Size: 21.4 KB | Mode: permanent
+
+[PROJECT] web-laundry
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\web-laundry\storage\logs | Size: 2.2 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\web-laundry\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\web-laundry\storage\framework\views | Size: 1.2 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\web-laundry\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\web-laundry\bootstrap\cache | Size: 25.6 KB | Mode: permanent
+
+[PROJECT] rudi
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudi\storage\logs | Size: 2.2 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudi\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudi\storage\framework\views | Size: 1.1 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudi\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\rudi\bootstrap\cache | Size: 22.0 KB | Mode: permanent
+
+[PROJECT] course-app
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\course-app\storage\logs | Size: 1.5 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\course-app\storage\framework\cache | Size: 482 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\course-app\storage\framework\views | Size: 1.4 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\course-app\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\course-app\bootstrap\cache | Size: 33.1 KB | Mode: permanent
+
+[PROJECT] backend
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse\backend\storage\logs | Size: 2.4 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse\backend\storage\framework\cache | Size: 323 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse\backend\storage\framework\views | Size: 44.4 KB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse\backend\storage\framework\sessions | Size: 6.4 KB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\01_Inercorp_Projects\inercourse\backend\bootstrap\cache | Size: 96.6 KB | Mode: permanent
+
+[PROJECT] administrasi-surat
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\administrasi-surat\storage\logs | Size: 1.2 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\administrasi-surat\storage\framework\cache | Size: 482 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\administrasi-surat\storage\framework\views | Size: 1.2 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\administrasi-surat\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\kuliahkoding\administrasi-surat\bootstrap\cache | Size: 28.1 KB | Mode: permanent
+
+[PROJECT] apilpk
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\apilpk\storage\logs | Size: 1.2 MB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\apilpk\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\apilpk\storage\framework\views | Size: 383.3 KB | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\apilpk\storage\framework\sessions | Size: 929 B | Mode: permanent
+  [2026-11-01 20:03:23] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\apilpk\bootstrap\cache | Size: 22.0 KB | Mode: permanent
+
+[PROJECT] qurban
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\qurban\storage\logs | Size: 1.2 MB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\qurban\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\qurban\storage\framework\views | Size: 383.3 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\qurban\storage\framework\sessions | Size: 929 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\qurban\bootstrap\cache | Size: 22.0 KB | Mode: permanent
+
+[PROJECT] it-inventory
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\it-inventory\storage\logs | Size: 1.1 MB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\it-inventory\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\it-inventory\storage\framework\views | Size: 383.3 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\it-inventory\storage\framework\sessions | Size: 929 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\it-inventory\bootstrap\cache | Size: 22.0 KB | Mode: permanent
+
+[PROJECT] dkm
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\dkm\storage\logs | Size: 720.4 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\dkm\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\dkm\storage\framework\views | Size: 650.5 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\dkm\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\dkm\bootstrap\cache | Size: 22.4 KB | Mode: permanent
+
+[PROJECT] jri
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\jri\storage\logs | Size: 219.0 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\jri\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\jri\storage\framework\views | Size: 668.6 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\jri\storage\framework\sessions | Size: 281 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\jri\bootstrap\cache | Size: 22.1 KB | Mode: permanent
+
+[PROJECT] laravelcoreapi
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravelcoreapi\storage\logs | Size: 618.1 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravelcoreapi\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravelcoreapi\storage\framework\views | Size: 183.7 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravelcoreapi\storage\framework\sessions | Size: 740 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravelcoreapi\bootstrap\cache | Size: 22.0 KB | Mode: permanent
+
+[PROJECT] Laravel-spp
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\Laravel-spp\storage\logs | Size: 410.6 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\Laravel-spp\storage\framework\views | Size: 278.8 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\Laravel-spp\bootstrap\cache | Size: 16.5 KB | Mode: permanent
+
+[PROJECT] fic12-ticketing
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\fic12-ticketing\storage\logs | Size: 297.3 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\fic12-ticketing\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\fic12-ticketing\storage\framework\views | Size: 310.3 KB | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\fic12-ticketing\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:24] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\fic12-ticketing\bootstrap\cache | Size: 68.2 KB | Mode: permanent
+
+[PROJECT] restfull-api-pos
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\restfull-api-pos\storage\logs | Size: 334.8 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\restfull-api-pos\storage\framework\cache | Size: 146 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\restfull-api-pos\storage\framework\views | Size: 27.3 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\restfull-api-pos\storage\framework\sessions | Size: 372 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\restfull-api-pos\bootstrap\cache | Size: 20.9 KB | Mode: permanent
+
+[PROJECT] laravel_cbt_backend
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel_cbt_backend\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel_cbt_backend\storage\framework\cache | Size: 183 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel_cbt_backend\storage\framework\views | Size: 172.5 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel_cbt_backend\storage\framework\sessions | Size: 654 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel_cbt_backend\bootstrap\cache | Size: 21.2 KB | Mode: permanent
+
+[PROJECT] ineredu_saas
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_saas\storage\logs | Size: 17.2 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_saas\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_saas\storage\framework\views | Size: 141.9 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_saas\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\ineredu_saas\bootstrap\cache | Size: 21.7 KB | Mode: permanent
+
+[PROJECT] laravel11-api
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel11-api\storage\logs | Size: 33.9 KB | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel11-api\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel11-api\storage\framework\views | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel11-api\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel11-api\bootstrap\cache | Size: 21.5 KB | Mode: permanent
+
+[PROJECT] pos_cafe_laravel
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\pos_cafe_laravel\storage\logs | Size: 25.6 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\pos_cafe_laravel\storage\framework\cache | Size: 72 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\pos_cafe_laravel\storage\framework\views | Size: 94.2 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\pos_cafe_laravel\storage\framework\sessions | Size: 273 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\pos_cafe_laravel\bootstrap\cache | Size: 22.9 KB | Mode: permanent
+
+[PROJECT] laravel-12
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel-12\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel-12\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel-12\storage\framework\views | Size: 121.0 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel-12\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\laravel-12\bootstrap\cache | Size: 21.6 KB | Mode: permanent
+
+[PROJECT] laravel-midtrans
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-midtrans\storage\logs | Size: 63.6 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-midtrans\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-midtrans\storage\framework\views | Size: 17.8 KB | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-midtrans\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:25] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-midtrans\bootstrap\cache | Size: 21.5 KB | Mode: permanent
+
+[PROJECT] laravel-xendit
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-xendit\storage\logs | Size: 50.3 KB | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-xendit\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-xendit\storage\framework\views | Size: 24.1 KB | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-xendit\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\08_Kuliah_Courses_Learning\santrikoding\laravel-xendit\bootstrap\cache | Size: 21.5 KB | Mode: permanent
+
+[PROJECT] chirper
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\chirper\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\chirper\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\chirper\storage\framework\views | Size: 28.2 KB | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\chirper\storage\framework\sessions | Size: 188 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\chirper\bootstrap\cache | Size: 20.7 KB | Mode: permanent
+
+[PROJECT] lara-postgre
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-postgre\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-postgre\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-postgre\storage\framework\views | Size: 28.2 KB | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-postgre\storage\framework\sessions | Size: 188 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\lara-postgre\bootstrap\cache | Size: 20.7 KB | Mode: permanent
+
+[PROJECT] backend-kwtalmina
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\02_Client_Business_Apps\kwtalmina\backend-kwtalmina\storage\logs | Size: 13.1 KB | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\02_Client_Business_Apps\kwtalmina\backend-kwtalmina\storage\framework\cache | Size: 162 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\02_Client_Business_Apps\kwtalmina\backend-kwtalmina\storage\framework\views | Size: 18.2 KB | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\02_Client_Business_Apps\kwtalmina\backend-kwtalmina\storage\framework\sessions | Size: 195 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\02_Client_Business_Apps\kwtalmina\backend-kwtalmina\bootstrap\cache | Size: 16.8 KB | Mode: permanent
+
+[PROJECT] armonitoring
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\armonitoring\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\armonitoring\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\armonitoring\storage\framework\views | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\armonitoring\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laragon\armonitoring\bootstrap\cache | Size: 14 B | Mode: permanent
+
+[PROJECT] bubbleclinic
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\bubbleclinic\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\bubbleclinic\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\bubbleclinic\storage\framework\views | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\bubbleclinic\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\05_Web_Backend_PHP\laravel\bubbleclinic\bootstrap\cache | Size: 14 B | Mode: permanent
+
+[PROJECT] ojs-viewer
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\09_DevOps_Database\mysql\ojs-viewer\storage\logs | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\09_DevOps_Database\mysql\ojs-viewer\storage\framework\cache | Size: 35 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\09_DevOps_Database\mysql\ojs-viewer\storage\framework\views | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\09_DevOps_Database\mysql\ojs-viewer\storage\framework\sessions | Size: 14 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\09_DevOps_Database\mysql\ojs-viewer\bootstrap\cache | Size: 14 B | Mode: permanent
+
+[PROJECT] laravel-sb-admin-2
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\04_Web_Frontend\sbadmin\laravel-sb-admin-2\storage\framework\cache | Size: 40 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\04_Web_Frontend\sbadmin\laravel-sb-admin-2\storage\framework\views | Size: 16 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\04_Web_Frontend\sbadmin\laravel-sb-admin-2\storage\framework\sessions | Size: 16 B | Mode: permanent
+  [2026-11-01 20:03:26] [DELETED] C:\Maulana\04_Web_Frontend\sbadmin\laravel-sb-admin-2\bootstrap\cache | Size: 16 B | Mode: permanent
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 875.9 MB (918,490,277 bytes)
+  - Items Cleaned     : 269
+  - Commands Run      : 0
+  - Errors            : 0
+  - Finished At       : 2026-11-01 20:03:26
+================================================================================
+
+================================================================================
+PROJECT CLEANER LOG - 2026-11-01 20:30:49
+Target Directory : C:\Users\user01
+Deletion Mode    : Permanent Delete
+Projects Cleaned : 19
+================================================================================
+
+[PROJECT] Gradle Global Cache
+  [2026-11-01 20:18:36] [DELETED] C:\Users\user01\.gradle\caches | Size: 12.6 GB | Mode: permanent
+
+[PROJECT] Pip Global Cache
+  [2026-11-01 20:30:49] [COMMAND] C:\Python314\python.exe -m pip cache purge
+  [2026-11-01 20:18:49] [DELETED] C:\Users\user01\AppData\Local\pip\cache | Size: 6.7 GB | Mode: permanent
+
+[PROJECT] PNPM Global Store
+  [2026-11-01 20:22:09] [DELETED] C:\Users\user01\AppData\Local\pnpm\store | Size: 5.2 GB | Mode: permanent
+
+[PROJECT] Go Module Cache
+  [2026-11-01 20:27:32] [DELETED] C:\Users\user01\go\pkg\mod | Size: 5.1 GB | Mode: permanent
+
+[PROJECT] Yarn Cache
+  [2026-11-01 20:29:48] [DELETED] C:\Users\user01\AppData\Local\Yarn\Cache | Size: 3.3 GB | Mode: permanent
+
+[PROJECT] Antigravity / Gemini Backup
+  [2026-11-01 20:29:53] [DELETED] C:\Users\user01\.gemini\antigravity-backup | Size: 2.2 GB | Mode: permanent
+
+[PROJECT] NuGet Global Packages Cache
+  [2026-11-01 20:30:49] [COMMAND] dotnet nuget locals all --clear
+  [2026-11-01 20:30:10] [DELETED] C:\Users\user01\.nuget\packages | Size: 1.8 GB | Mode: command
+
+[PROJECT] Gradle Wrapper Distributions
+  [2026-11-01 20:30:38] [DELETED] C:\Users\user01\.gradle\wrapper\dists | Size: 1.4 GB | Mode: permanent
+
+[PROJECT] Windows User Temp (%TEMP%)
+  [2026-11-01 20:30:41] [DELETED] C:\Users\user01\AppData\Local\Temp | Size: 1.3 GB | Mode: permanent
+
+[PROJECT] Windows Update Download Cache
+  [2026-11-01 20:30:41] [DELETED] C:\Windows\SoftwareDistribution\Download | Size: 111.5 MB | Mode: permanent
+
+[PROJECT] Google Chrome Code Cache
+  [2026-11-01 20:30:45] [DELETED] C:\Users\user01\AppData\Local\Google\Chrome\User Data\Default\Code Cache | Size: 422.5 MB | Mode: permanent
+
+[PROJECT] Go Build Cache
+  [2026-11-01 20:30:49] [COMMAND] go clean -cache
+  [2026-11-01 20:30:47] [DELETED] C:\Users\user01\AppData\Local\go-build | Size: 394.1 MB | Mode: permanent
+
+[PROJECT] Google Chrome Cache
+  [2026-11-01 20:30:48] [DELETED] C:\Users\user01\AppData\Local\Google\Chrome\User Data\Default\Cache | Size: 286.5 MB | Mode: permanent
+
+[PROJECT] VS Code Cache
+
+[PROJECT] Microsoft Edge Cache
+  [2026-11-01 20:30:48] [DELETED] C:\Users\user01\AppData\Local\Microsoft\Edge\User Data\Default\Cache | Size: 127.6 MB | Mode: permanent
+
+[PROJECT] VS Code Cached V8 Data
+
+[PROJECT] Microsoft Edge Code Cache
+  [2026-11-01 20:30:49] [DELETED] C:\Users\user01\AppData\Local\Microsoft\Edge\User Data\Default\Code Cache | Size: 45.5 MB | Mode: permanent
+
+[PROJECT] Windows Crash Dumps (.dmp)
+  [2026-11-01 20:30:49] [DELETED] C:\Users\user01\AppData\Local\CrashDumps | Size: 39.9 MB | Mode: permanent
+
+[PROJECT] NPM Global Cache
+  [2026-11-01 20:30:49] [DELETED] C:\Users\user01\AppData\Roaming\npm-cache | Size: 21.2 MB | Mode: permanent
+
+--------------------------------------------------------------------------------
+SESSION SUMMARY:
+  - Total Space Freed : 41.0 GB (44,024,204,562 bytes)
+  - Items Cleaned     : 17
+  - Commands Run      : 3
+  - Errors            : 0
+  - Finished At       : 2026-11-01 20:30:49
+================================================================================
+
